@@ -1,31 +1,14 @@
-APPname: gmodeler | globalscape
+Metamodeler
 
 * Night/light mode
-* 
-* interficie amb icones
-* moviment play automàtic de rotacio que es pugui parar
+* Sign in buttons
+* Logo Metamodeler
+* prompt conversational-search
+* no puguis rotar mes enllà del nord
+* rotació automàtica suau 
 * superficie plena amb ombrejat
-* aspecte mes guapu https://2050.earth/
+* Idees https://2050.earth/
+* Fons inspirat amb el topic, o pla
 * interessant https://github.com/mrdoob/three.js/blob/master/examples/webgl_loader_gltf_iridescence.html
-* shader lava https://github.com/mrdoob/three.js/blob/master/examples/webgl_shader_lava.html
+* plasma: https://github.com/mrdoob/three.js/blob/master/examples/webgl_shader_lava.html
 
-APPS:
-
-* gmodeler
-* gos : global operating system
-* gpedia : coneixement, aprenentatge
-* gov  : demotica, argument
-* gnomics : economia, blockchain
-
-logo inicial "
-
-
-
-clickable objects
-https://threejs.org/examples/canvas_interactive_cubes.html
-Requereix Raycaster...pero amb versio 60 no funciona
-i amb la 73 /master/src/Three.js peta tot
-
-mirar:
-http://stackoverflow.com/questions/11036106/three-js-projector-and-ray-objects/23492823#23492823
-http://barkofthebyte.azurewebsites.net/demos/projspikes.htm
