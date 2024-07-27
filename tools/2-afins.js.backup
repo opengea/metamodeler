@@ -1,0 +1,152 @@
+        //afins
+	//de 2
+	afins=[];
+
+//	pos:situa(PT,FN,OS)...
+
+        //Pe:
+        afins['Fantasia']   ={pos:situa(50,-25,50),color:[0,40,255],title:'Fantasia',type:'Afins',descr:''};
+        afins['Imaginacio'] ={pos:situa(51,-51,51),color:[0,40,255],title:'Imaginació',type:'Afins',descr:''};
+        afins['Critica']    ={pos:situa(50,-50,-25),color:[0,40,255],title:'Critica',type:'Afins',descr:''};
+        afins['Diferencia'] ={pos:situa(51,-51,0),color:[0,40,255],title:'Diferència',type:'Afins',descr:''};
+        afins['Disseny']    ={pos:situa(50,-50,25),color:[0,40,255],title:'Disseny',type:'Afins',descr:''};
+        afins['Judici']     ={pos:situa(50,-50,-50),color:[0,40,255,],title:'Judici',type:'Afins',descr:''};
+        afins['Dimensio']   ={pos:situa(50,-25,-50),color:[0,40,255],title:'Dimensió',type:'Afins',descr:''};
+        afins['Igualtat']   ={pos:situa(50,-25,-25),color:[0,40,255],title:'Identitat',type:'Afins',descr:''};
+	afins['Gramatica']  ={pos:situa(50,-25,0),color:[0,40,255],title:'Gramàtica',type:'Afins',descr:''};
+        afins['Alteritat']  ={pos:situa(50,-25,25),color:[0,40,255],title:'Alteritat',type:'Afins',descr:''};
+	afins['Creativitat']={pos:situa(50,-12,25),color:[0,40,255],title:'Creativitat',type:'Afins',descr:''};
+        afins['Estil']      ={pos:situa(50,-25,12),color:[0,40,255],title:'Estil',type:'Afins',descr:''};
+	afins['Algebra']    ={pos:situa(50,-25,-12),color:[0,40,255],title:'Àlgebra',type:'Afins',descr:''};
+	afins['Sintactica'] ={pos:situa(50,-12,-25),color:[0,40,255],title:'Sintàctica',type:'Afins',descr:''};
+        afins['Forma']      ={pos:situa(25,-50,50),color:[0,255,0],title:'Forma',type:'Afins',descr:''};
+	afins['Disjuncio']  ={pos:situa(25,-50,0),color:[0,255,0],title:'Disjunció',type:'Afins',descr:''};
+        afins['Presencia']  ={pos:situa(0,-50,0),color:[0,255,0],title:'Presencia',type:'Afins',descr:''};
+	afins['Coneixement']={pos:situa(0,-51,-51),color:[0,255,0],title:'Coneixement',type:'Afins',descr:''};
+        afins['Esclat']     ={pos:situa(0,-51,51),color:[0,255,0],title:'Esclat',type:'Afins',descr:''};
+	afins['Formula']    ={pos:situa(25,-50,-50),color:[0,255,0],title:'Formula',type:'Afins',descr:''};
+	afins['Intencio']   ={pos:situa(0,-25,50),color:[0,255,0],title:'Intenció',type:'Afins',descr:''};
+	afins['Funcio']     ={pos:situa(0,-25,-50),color:[0,255,0],title:'Funció',type:'Afins',descr:''};
+	afins['Mesura']     ={pos:situa(0,-50,-25),color:[0,255,0],title:'Mesura',type:'Afins',descr:''};
+        afins['Qualitat']   ={pos:situa(0,-50,25),color:[0,255,0],title:'Qualitat',type:'Afins',descr:''};
+        afins['Figura']     ={pos:situa(25,-50,25),color:[0,255,0],title:'Figura',type:'Afins',descr:''};
+	afins['Relacio']    ={pos:situa(25,-50,-25),color:[0,255,0],title:'Relació',type:'Afins',descr:''};
+        afins['Concepcio']  ={pos:situa(25,-25,50),color:[0,255,0],title:'Concepció',type:'Afins',descr:''};
+	afins['Variable']   ={pos:situa(25,-25,-50),color:[0,255,0],title:'Variable',type:'Afins',descr:''};
+
+//      pos:situa(PT,FN,OS)...
+	//Ap:
+        afins['Revelacio']    ={pos:situa(50,50,25),color:[0,40,255],title:'Revelació',type:'Afins',descr:''};
+	afins['Model']        ={pos:situa(50,50,-25),color:[255,0,255],title:'Model',type:'Afins',descr:''};
+	afins['Heroi']        ={pos:situa(50,25,50),color:[0,40,255],title:'Heroi',type:'Afins',descr:''};
+	afins['No-dualitat']  ={pos:situa(50,25,0),color:[0,40,255],title:'No-Dualitat',type:'Afins',descr:''};
+	afins['Consciencia']  ={pos:situa(50,0,51),color:[0,40,255],title:'Consciència',type:'Afins',descr:''};
+	afins['Globalitat']   ={pos:situa(54,0,0),color:[0,40,255],title:'Globalitat',type:'Afins',descr:''};
+	afins['Liturgia']     ={pos:situa(50,50,50),color:[0,40,255],title:'Liturgia',type:'Afins',descr:''};
+	afins['Paradigma']    ={pos:situa(50,0,-50),color:[0,40,255],title:'Paradigma',type:'Afins',descr:''};
+	afins['Concepte']     ={pos:situa(50,25,-50),color:[0,40,255],title:'Concepte',type:'Afins',descr:''};
+	afins['Idea']         ={pos:situa(50,50,-50),color:[255,0,255],title:'Idea',type:'Afins',descr:''};
+	afins['Saviesa']      ={pos:situa(50,50,0),color:[255,0,255],title:'Saviesa',type:'Afins',descr:''};
+	afins['Holicitat']    ={pos:situa(50,25,25),color:[0,40,255],title:'Holicitat',type:'Afins',descr:''};
+	afins['Intelligencia']={pos:situa(50,0,25),color:[0,40,255],title:'Intel·ligència',type:'Afins',descr:''};
+	afins['Rao']          ={pos:situa(50,0,-25),color:[0,40,255],title:'Raó',type:'Afins',descr:''};
+	afins['Coherencia']   ={pos:situa(50,25,-25),color:[0,40,255],title:'Coherència',type:'Afins',descr:''};
+	afins['Logos']        ={pos:situa(50,25,12),color:[0,40,255],title:'Logos',type:'Afins',descr:''};
+	afins['Semantica']    ={pos:situa(50,12,-25),color:[0,40,255],title:'Semàntica',type:'Afins',descr:''};
+	afins['Topologia']    ={pos:situa(50,25,-12),color:[0,40,255],title:'Topologia',type:'Afins',descr:''};
+	afins['Saga']         ={pos:situa(50,12,25),color:[0,40,255],title:'Saga',type:'Afins',descr:''};
+	afins['Sag.Escr.']    ={pos:situa(25,50,0),color:[255,0,255],title:'Sagrada Escriptura',type:'Afins',descr:''};
+	afins['Deliri']       ={pos:situa(25,50,50),color:[255,0,255],title:'Deliri',type:'Afins',descr:''};
+	afins['Enigma']       ={pos:situa(25,0,50),color:[0,40,255],title:'Enigma',type:'Afins',descr:''};
+	afins['Definicio']    ={pos:situa(25,0,-50),color:[0,40,255],title:'Definició',type:'Afins',descr:''};
+	afins['Profecia']     ={pos:situa(25,50,25),color:[255,0,255],title:'Profecia',type:'Afins',descr:''};
+	afins['Confesio']     ={pos:situa(25,25,50),color:[0,40,255],title:'Confesió',type:'Afins',descr:''};
+        afins['Constancia']   ={pos:situa(25,25,-50),color:[255,0,255],title:'Constància',type:'Afins',descr:''};
+	afins['Consistencia'] ={pos:situa(25,50,-50),color:[255,0,255],title:'Consistència',type:'Afins',descr:''};
+	afins['Subsistencia'] ={pos:situa(25,50,-25),color:[255,0,255],title:'Subsistència',type:'Afins',descr:''};
+
+
+
+//      pos:situa(PT,FN,OS)...
+	//Co:
+	afins['Essencia']     ={pos:situa(0,50,-50),color:[255,0,255],title:'Essència',type:'Afins',descr:''};
+	afins['Absolut']      ={pos:situa(0,50,0),color:[255,0,255],title:'Absolut',type:'Afins',descr:''};
+	afins['Esser']        ={pos:situa(0,50,-25),color:[255,0,255],title:'Ésser',type:'Afins',descr:''};
+	afins['Esperit']      ={pos:situa(0,50,50),color:[255,0,255],title:'Esperit',type:'Afins',descr:''};
+	afins['Anima']        ={pos:situa(0,25,50),color:[255,0,255],title:'Ànima',type:'Afins',descr:''};
+	afins['Cosa']         ={pos:situa(0,25,-50),color:[255,0,255],title:'Essència',type:'Afins',descr:''};
+	afins['Esperit U.']   ={pos:situa(0,50,25),color:[255,0,255],title:'Esperit Universal',type:'Afins',descr:''};
+
+	afins['Comunio']      ={pos:situa(-25,50,0),color:[255,0,255],title:'Comunió',type:'Afins',descr:''};
+	afins['Contemplacio'] ={pos:situa(-25,50,25),color:[255,0,255],title:'Contemplació',type:'Afins',descr:''};
+	afins['Carisma']      ={pos:situa(-25,50,50),color:[255,0,255],title:'Carisma',type:'Afins',descr:''};
+	afins['Emocio']       ={pos:situa(-25,25,50),color:[255,0,255],title:'Emoció',type:'Afins',descr:''};
+
+	afins['Aqui']         ={pos:situa(-25,-25,-50),color:[255,0,255],title:'Aqui',type:'Afins',descr:''};
+	afins['Aixo']         ={pos:situa(-25,25,-50),color:[255,0,0],title:'Això',type:'Afins',descr:''};
+	afins['Entitat']      ={pos:situa(-25,50,-50),color:[255,0,255],title:'Entitat',type:'Afins',descr:''};
+	afins['Substancia']   ={pos:situa(-25,50,-25),color:[255,0,255],title:'Substància',type:'Afins',descr:''};
+
+
+        afins['Caritat']      ={pos:situa(-50,50,0),color:[255,0,255],title:'Caritat',type:'Afins',descr:''};
+        afins['Cos-Mistic']   ={pos:situa(-50,50,25),color:[255,0,255],title:'Cos Místic',type:'Afins',descr:''};
+        afins['Llibertat']    ={pos:situa(-50,50,50),color:[255,0,255],title:'Llibertat',type:'Afins',descr:''};
+
+        afins['Causa']        ={pos:situa(-50,50,-25),color:[255,0,0],title:'Causa',type:'Afins',descr:''};
+        afins['Necessitat']   ={pos:situa(-50,50,-50),color:[255,0,0],title:'Necessitat',type:'Afins',descr:''};
+        afins['Angoixa']      ={pos:situa(-50,25,50),color:[255,0,0],title:'Angoixa',type:'Afins',descr:''};
+        afins['Extasi']       ={pos:situa(-50,25,0),color:[255,0,0],title:'Extasi',type:'Afins',descr:''};
+        afins['Pares']        ={pos:situa(-50,25,12),color:[255,0,0],title:'Pares',type:'Afins',descr:''};
+        afins['Embadaliment'] ={pos:situa(-50,25,25),color:[255,0,0],title:'Embadaliment',type:'Afins',descr:''};
+
+        afins['Valor']        ={pos:situa(-50,25,-25),color:[255,0,0],title:'Valor',type:'Afins',descr:''};
+        afins['Potencia']     ={pos:situa(-50,25,-12),color:[255,0,0],title:'Pontència',type:'Afins',descr:''};
+        afins['Conviccio']    ={pos:situa(-50,25,-50),color:[255,0,0],title:'Convicció',type:'Afins',descr:''};
+        afins['Inspiracio']   ={pos:situa(-50,12,25),color:[255,0,0],title:'Inspiració',type:'Afins',descr:''};
+        afins['Memoria']      ={pos:situa(-50,12,-25),color:[255,0,0],title:'Memòria',type:'Afins',descr:''};
+
+	//Neutre	
+        afins['Estructura']  ={pos:situa(0,0,-50),color:[0,0,0],title:'Estructura',type:'Afins',descr:''};
+	afins['Vivencia']    ={pos:situa(0,0,50),color:[0,0,0],title:'Vivència',type:'Afins',descr:''};
+
+	//Ac:
+
+        afins['Tremp']        ={pos:situa(-50,0,50),color:[255,0,0],title:'Tremp',type:'Afins',descr:''};
+
+        afins['Afecte']       ={pos:situa(-25,-25,50),color:[255,0,0],title:'Afecte',type:'Afins',descr:''};
+        afins['Anim']         ={pos:situa(-25,0,50),color:[255,0,0],title:'Ànim',type:'Afins',descr:''};
+        afins['E.Anim']       ={pos:situa(-50,-25,50),color:[255,0,0],title:'Estat d\'Ànim',type:'Afins',descr:''};
+        afins['Disposicio']   ={pos:situa(-25,0,-50),color:[255,0,0],title:'Disposició',type:'Afins',descr:''};
+        afins['Gust']         ={pos:situa(-25,-50,50),color:[0,255,0],title:'Gust',type:'Afins',descr:''};
+        afins['Impressio']    ={pos:situa(-25,-50,25),color:[0,255,0],title:'Impressio',type:'Afins',descr:''};
+        afins['Esdeveniment'] ={pos:situa(-25,-50,0),color:[0,255,0],title:'Esdeveniment',type:'Afins',descr:''};
+        afins['Aixi']         ={pos:situa(-25,-50,-25),color:[0,255,0],title:'Aixi',type:'Afins',descr:''};
+        afins['Experiment']   ={pos:situa(-25,-50,-50),color:[0,255,0],title:'Experiment',type:'Afins',descr:''};
+
+	afins['Desig']        ={pos:situa(-50,-50,50),color:[255,0,0],title:'Desig',type:'Afins',descr:''};
+	afins['Impacte']      ={pos:situa(-50,-50,25),color:[255,0,0],title:'Impacte',type:'Afins',descr:''};
+	afins['Conflicte']    ={pos:situa(-50,-50,0),color:[0,255,0],title:'Conflicte',type:'Afins',descr:''};
+	afins['Distincio']    ={pos:situa(-50,-50,-25),color:[0,255,0],title:'Distinció',type:'Afins',descr:''};
+	afins['Utilitat']     ={pos:situa(-50,-50,-50),color:[0,255,0],title:'Utilitat',type:'Afins',descr:''};
+	afins['Convencio']    ={pos:situa(-50,-25,-50),color:[255,0,0],title:'Convenció',type:'Afins',descr:''};
+	afins['Ordre']        ={pos:situa(-50,0,-50),color:[255,0,0],title:'Ordre',type:'Afins',descr:''};
+
+        afins['Intuicio']     ={pos:situa(-50,0,25),color:[255,0,0],title:'Intuïció',type:'Afins',descr:''};
+        afins['Sensibilitat'] ={pos:situa(-50,-12,25),color:[255,0,0],title:'Sensibilitat',type:'Afins',descr:''};
+        afins['Joc']          ={pos:situa(-50,-25,25),color:[255,0,0],title:'Joc',type:'Afins',descr:''};
+	afins['Sensualitat']  ={pos:situa(-50,-25,12),color:[255,0,0],title:'Sensualitat',type:'Afins',descr:''};
+	afins['Espontanietat']={pos:situa(-50,-25,0),color:[255,0,0],title:'Espontanietat',type:'Afins',descr:''};
+	afins['Finalitat']    ={pos:situa(-50,-25,-12),color:[255,0,0],title:'Finalitat',type:'Afins',descr:''};
+	afins['Aprenentatge'] ={pos:situa(-50,-25,-25),color:[255,0,0],title:'Aprenentatge',type:'Afins',descr:''};
+	afins['Pragmatica']   ={pos:situa(-50,-12,-25),color:[255,0,0],title:'Pragmàtica',type:'Afins',descr:''};
+	afins['Evidencia']    ={pos:situa(-50,0,-25),color:[255,0,0],title:'Evidència',type:'Afins',descr:''};
+
+	// load
+	
+        loadCategories("afi",afins,{textcolor:'255,255,255',borderThickness: 0.1,fontsize: 25,borderalpha:0,bgalpha:0.3});  
+	
+
+/*	var custom={];
+	loadCategories(custom,data,{textcolor:'255,255,255',borderThickness: 2,fontsize: 12,borderalpha:0.5,bgalpha:0.3});	
+*/
+

@@ -1,0 +1,64 @@
+/* Customized CSS for jQuery UI: simple info button and box. */
+
+body { background-color:#000; overflow:hidden; }
+
+div#infoBox { 
+	position: absolute; left:0px; top:0px;z-index:99999;color:#2e8560;Text-transform:uppercase;
+	border:1px solid #1a6d4a;background-color: rgba(5,5,5,.7);font-family:arial;font-size:10px;margin:5px 0px 0px 2px;padding:5px;width:95%;height:90% 
+}
+div.tab { margin-top:10px;border-top:1px solid #222 }
+div.menutab { float:left; padding:5px 5px;cursor:pointer;cursor:hand}
+h1,h2 { font-size:10px;color:#777;background-color:rgba(60,60,60,.1);padding:4px 0px 4px 0px;width:100%;color:#67d5a6;margin:0px}
+.colortheme { color:#67d5a6 }
+.colortheme_dark { color:#47b586 }
+h1 { color:#67d5a6;background-color:rgba(0, 255, 135, 0.1);}
+input[type=checkbox] { width:10px; height:10px; }
+input[type=text] { z-index:99999;width:20px;font-size:10px;background-color:rgba(60,60,60,.1);color:#fff;border:1px solid #222 }
+input[type=submit] { cursor:pointer;cursor:hand;color:#67d5a6;border:0px;padding:2px;font-size:10px;background-color:rgba(63, 80, 53, 0.1);border:1px solid #469975;margin:5px 0px}
+select { font-size:10px;background-color:rgba(60,60,60,.1);color:#fff;border:1px solid #222 }
+div#info { width:100%;font-weight:bold;display:none; text-align:left; text-transform:inherit !important; }
+
+
+@media (max-width: 420px)  {
+/*	div#infoBox { display:none; }*/
+}
+.ui-widget-content 
+{
+    font-size:12px;
+    font-family: georgia;
+}
+
+/* trim space around info button */
+.ui-button-text-only .ui-button-text 
+{  padding: 0px;  }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default 
+{  border: 0px solid #000000;  }
+
+/* changing dialog close button */
+.ui-dialog-titlebar-close
+{
+	outline-width: 0px !important;
+	background-color: transparent !important;
+    background-image: url('../images/icon-close-16.png') !important;
+	background-repeat:no-repeat !important;
+}
+
+/* changing dialog close button */
+.ui-dialog-titlebar-close:hover,
+.ui-dialog-titlebar-close:focus 
+{
+    background-color: transparent !important;
+    background-image: url('../images/icon-close-16.png') !important;
+	background-repeat:no-repeat !important;
+}
+
+/* hide the default "x" close image */
+.ui-dialog-titlebar-close span 
+{  display:none !important;  }
+
+/* translucent background */
+.ui-dialog 
+{  
+	opacity: .90;  
+	width:600px !important;
+}

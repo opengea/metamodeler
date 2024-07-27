@@ -1,0 +1,1836 @@
+ACC-AFI:Acoblament
+ACC-AFI:Aparellament
+ACC-AFI:Junció
+ACC-AFI:Juntura
+ACC-AGU:Aptitud
+ACC-AGU:Suficiència
+ACC-AMO:Lliurament
+ACC-AMO:Obriment
+ACC-ANA:Exploració
+ACC-ANA:Redacció
+ACC-ANA:Subjecte agent
+ACC-ANA:Veu activa
+ACC-ART:Elegància
+ACC-ART:Estil
+ACC-ART:Gust1
+ACC-ATZ:Actor
+ACC-ATZ:Aventura
+ACC-ATZ:Diversió
+ACC-ATZ:Temps quàntic
+ACC-BOS:Compenetració
+ACC-BOS:Espai quàntic
+ACC-BOS:Participació1
+ACC-CAS:Activisme
+ACC-CAS:Agent
+ACC-CAS:Explorador
+ACC-CAS:Força quàntica
+ACC-CAS:Iniciativa
+ACC-CAS:Topada
+ACC-CAS:Xoc
+ACC-CAV:Enginy
+ACC-CAV:Inventiva
+ACC-CAV:Originalitat
+ACC-CFN:Empresonament
+ACC-CFN:Immobilització
+ACC-CFN:Tancament
+ACC-CIE:Bellugor
+ACC-CIE:Moció1
+ACC-CIE:Moviment
+ACC-CIE:Procés
+ACC-CIE:Viatge
+ACC-CNV:Adaptació
+ACC-CNV:Transacció
+ACC-CNV:Versatilitat
+ACC-COS:Capacitat1
+ACC-COS:Competència1
+ACC-DSG:Campanya
+ACC-DSG:Influència
+ACC-EBR:Eufòria
+ACC-EBR:Satisfacció
+ACC-EST:Caient
+ACC-EST:Posat
+ACC-ETI:Benifet
+ACC-ETI:Bona acció
+ACC-ETI:Comportament
+ACC-ETI:Contenció
+ACC-ETI:Dest?
+ACC-ETI:Mala acció
+ACC-ETI:Mala passada
+ACC-ETI:Malifeta
+ACC-ETI:Prudència1
+ACC-EXC:Ajustament
+ACC-EXC:Cenyiment
+ACC-EXP:Acte de treballar
+ACC-EXP:Activitat
+ACC-EXP:Actuació
+ACC-EXP:Esforç
+ACC-EXP:Faïment
+ACC-EXP:Moció2
+ACC-EXP:Poder
+ACC-EXP:Feina
+ACC-FEL:Fruïció
+ACC-FEL:Recreació
+ACC-FEN:Actualitat
+ACC-FEN:Cas
+ACC-FEN:Esdeveniment
+ACC-FEN:Prodigalitat
+ACC-FEN:Succés
+ACC-FOL:Cabòria
+ACC-FOL:Dèria
+ACC-FOL:Mania
+ACC-FUN:Funcionament
+ACC-IDE:Acta
+ACC-IDE:Ambigüitat
+ACC-LET:Descans
+ACC-LET:Inacció
+ACC-LET:Passivitat
+ACC-LET:Quietud
+ACC-LET:Repòs
+ACC-LOG:Compte
+ACC-LOG:Càlcul
+ACC-MGM:Defalliment
+ACC-MGM:Desmai
+ACC-MGM:Ebullició
+ACC-MGM:Efervescència
+ACC-MGM:Esvaniment
+ACC-MGM:Inquietud
+ACC-MIS:Gesta
+ACC-MIS:Èxtasi
+ACC-MTF:Agència
+ACC-MTF:Finalitat
+ACC-MTF:Objectiu
+ACC-OBJ:Empresa
+ACC-OBJ:Obra
+ACC-OBJ:Operació
+ACC-OBJ:Transformació
+ACC-OBL:Capteniment
+ACC-OBL:Coacció
+ACC-OBL:Conducta1
+ACC-OBL:Exigència
+ACC-OGN:Coordinació
+ACC-OGN:Salut
+ACC-ONA:Bressol
+ACC-ONA:Gronxament
+ACC-ONA:Indagació
+ACC-ONA:Ona microfísica
+ACC-ONA:Oscil·lació
+ACC-ONA:Reacció
+ACC-ONA:Retroacció
+ACC-ORG:Potència
+ACC-ORG:Vigor
+ACC-ORG:Vitalitat1
+ACC-ORG:Vivacitat
+ACC-PCS:Finesa
+ACC-PCS:Finor
+ACC-PLA:Anada
+ACC-PLA:Avanç
+ACC-PLA:Coàgul
+ACC-PLA:Creació
+ACC-PLA:Creativitat
+ACC-PLA:Quantum d’acció
+ACC-PLA:Realitat microfísica
+ACC-POL:Agilitat
+ACC-POL:Destresa1
+ACC-POL:Habilitat1
+ACC-POL:Manya
+ACC-PRA:Concreció
+ACC-PRA:Empenta
+ACC-PRA:Força física1
+ACC-PRA:Frèndol
+ACC-PRA:Impuls
+ACC-PRA:Realització
+ACC-PRA:Valor1
+ACC-PRA:Acte
+ACC-PRB:Assaig1
+ACC-PRB:Prova1
+ACC-PRB:Tempteig
+ACC-PRD:Canvi
+ACC-PRD:Episodi
+ACC-PRD:Epopeia
+ACC-PRD:Event
+ACC-PRD:Facècia
+ACC-PRD:Fast
+ACC-PRD:Superposició quàntica
+ACC-PSI:Actitud
+ACC-PSI:Gest
+ACC-RAR:Extravagància
+ACC-RGN:Avinença
+ACC-RGN:Concert
+ACC-RGN:Intervenció
+ACC-SGE:Agonia
+ACC-SGE:Avís
+ACC-SGE:Factura
+ACC-SGE:Fet
+ACC-SGE:Feta
+ACC-SGE:Incidència
+ACC-SGE:Producció
+ACC-SGE:Resultat
+ACC-SGT:Interpretació
+ACC-SGT:Manifestació
+ACC-SLM:Exaltació
+ACC-SLM:Heroïcitat
+ACC-SLM:Perfecció
+ACC-STM:Desfici
+ACC-STM:Neguit
+ACC-TEC:Col·lapse quàntic
+ACC-TEC:Consumació
+ACC-TEC:Efectuació
+ACC-TEC:Jornada
+ACC-TEC:Maneig
+ACC-TEC:Maniobra
+ACC-TEC:Manipulació
+ACC-TEC:Acompliment
+ACC-TEC:Manejament
+ACC-TRB:Agitació espontània
+ACC-TRB:Aldarulls
+ACC-TRB:Avalots
+ACC-TRB:Batalla
+ACC-TRB:Combat
+ACC-TRB:Cridòria
+ACC-TRB:Gresca
+ACC-TRB:Lluita
+ACC-TRB:Pertorbació quàntica
+ACC-TRB:Rampell
+ACC-TRS:Entusiasme
+ACC-TRS:Expressió
+ACC-TRS:Implicació
+ACC-TRS:Somnambulisme
+ACC-TRS:Transport
+ACC-TRS:Acció profètica
+AMO-ACC:Ahimsa
+AMO-ACC:Lliurament
+AMO-ACC:No violència
+AMO-ACC:Obriment
+AMO-ACC:Violència
+AMO-AKA:Beatitud
+AMO-AKA:Compassió
+AMO-AKA:Karuna
+AMO-AKA:Pietat
+AMO-APE:Caritat ontològica intrínseca
+AMO-APE:Elasticitat
+AMO-APE:Força absoluta
+AMO-ARK:Bé
+AMO-ARK:Mal
+AMO-ARQ:Filía
+AMO-CAS:Festa
+AMO-CAS:Festeig
+AMO-CFN:Embadaliment
+AMO-CFN:Idil·li
+AMO-CFN:Silenci
+AMO-CMN:Agermanament
+AMO-CMN:Cor
+AMO-CMN:Cordialitat
+AMO-CMN:Fraternitat
+AMO-CMN:Germanor
+AMO-CMN:Reunió*
+AMO-CMN:Unificació2
+AMO-CMN:Unió**
+AMO-COM:Afavorir
+AMO-COM:Altruisme
+AMO-COS:Amabilitat
+AMO-COS:Sociabilitat
+AMO-DIV:Fill de Déu
+AMO-DSG:Afecció2*
+AMO-DSG:Compartir
+AMO-EBR:Devoció
+AMO-EBR:Enamorament
+AMO-EBR:Erotisme
+AMO-EBR:Possessió
+AMO-EBR:Vot
+AMO-ECL:Complementarietat
+AMO-ECL:Conjunció
+AMO-ECL:Còpula
+AMO-ECL:Obediència
+AMO-ECN:Bé comú
+AMO-ECN:Capital comunitari
+AMO-ECN:Hisenda comunitària
+AMO-ECN:Plusvàlua comunitària
+AMO-ECN:Valor afegit comunitari
+AMO-ECU:Església universal
+AMO-ECU:Unanimitat
+AMO-ETI:Estimació2
+AMO-ETI:Valor2
+AMO-GEN:Magnanimitat
+AMO-GEN:Mahatma
+AMO-HAR:Cel
+AMO-HAR:Enllaç
+AMO-HAR:Infern
+AMO-HAR:Solidaritat
+AMO-IDE:Advaita2
+AMO-IDE:Dualitat
+AMO-IDE:No dualitat
+AMO-LET:Abandó2
+AMO-LET:Confiança2
+AMO-LET:Dormició
+AMO-LET:Son
+AMO-MGM:Ardor
+AMO-MGM:Flama
+AMO-MGM:Inflamació
+AMO-MGM:Élan vital
+AMO-MIS:Cos místic
+AMO-MIS:Imperiència
+AMO-MIS:Parella
+AMO-MIS:Èxtasi
+AMO-MIT:Eros
+AMO-MTF:Filantropia
+AMO-MTP:Desposori
+AMO-MTP:Espòs/a
+AMO-MTP:Matrimoni
+AMO-MTP:Oració
+AMO-NOU:Abba
+AMO-NOU:Pare
+AMO-NOU:Sacralitat
+AMO-NOU:Santedat
+AMO-OBL:Esclavitud
+AMO-OBL:Servitud
+AMO-OBL:Vincle
+AMO-OGN:Combinació2
+AMO-OGN:Tendresa
+AMO-ORG:Benignitat
+AMO-ORG:Benvolença
+AMO-ORG:Bona voluntat
+AMO-ORG:Bondat
+AMO-PAS:Amistat*
+AMO-PAS:Enemistat
+AMO-POL:Abnegació
+AMO-POL:Sacrifici
+AMO-PRA:Autenticitat
+AMO-PRA:Company
+AMO-PRA:Generositat
+AMO-PRD:Fusió
+AMO-PRD:Identificació
+AMO-PSI:Afecte
+AMO-PSI:Amic
+AMO-PSI:Consentiment
+AMO-PSI:Enemic
+AMO-RGN:126.Sympósion
+AMO-RGN:Concòrdia
+AMO-RGN:Convit
+AMO-RGN:Paradís terrenal
+AMO-RGN:Serenitat
+AMO-RGN:Àgape
+AMO-SGE:Apreciació
+AMO-SGE:Do
+AMO-SGE:Favor
+AMO-SGE:Present
+AMO-SGE:Regal
+AMO-SLM:Caritat
+AMO-STM:Amant
+AMO-STM:Amat
+AMO-STM:Autoestima
+AMO-STM:Consens
+AMO-STM:Estimat
+AMO-TEC:Ajuda
+AMO-TEC:Col·laboració
+AMO-TEC:Mutualitat
+AMO-TIA:Mare
+AMO-TRB:Gelosia
+AMO-TRB:Zel
+ANA- DET:Pentagrama
+ANA- DET:Tetragrama
+ANA- EST:Sintaxi figurativa
+ANA- STT:Trencament*
+ANA-ACC:Exploració
+ANA-ACC:Redacció
+ANA-ACC:Subjecte agent
+ANA-ACC:Veu activa
+ANA-AGU:Apreciació1
+ANA-AGU:Matís
+ANA-AGU:Estimació1
+ANA-AGU:Judici
+ANA-ARK:Criteri
+ANA-ARK:Estudi
+ANA-ARK:Examen1
+ANA-ARK:Investigació
+ANA-ARQ:Anagrama
+ANA-ARQ:Guió
+ANA-ARQ:Paradigma
+ANA-ART:Distribució*
+ANA-AST:Perspicàcia
+ANA-ATZ:Dispersió*
+ANA-BEL:Art de l’encant
+ANA-BEL:Cosmètica
+ANA-BEL:Efectes
+ANA-BEL:Figures
+ANA-BEL:Fisiognòmica
+ANA-BEL:Recursos
+ANA-CAV:Aïllament*
+ANA-CAV:Confusió
+ANA-CAV:Ofuscació
+ANA-CIE:Caràcter
+ANA-CIE:Col·lecció
+ANA-CIE:Comprovació
+ANA-CIE:Element
+ANA-CIE:Gram
+ANA-CIE:Particularitat*
+ANA-CIE:Pictograma
+ANA-CIE:Protocol
+ANA-CIE:Singularitat
+ANA-CIE:Verificació
+ANA-CNV:Organigrama
+ANA-CNV:Selecció
+ANA-CNV:Discreció
+ANA-COM:Agregació
+ANA-COM:Associació
+ANA-COM:Discriminació
+ANA-COM:Disgregació
+ANA-COM:Dissociació
+ANA-COM:Incriminació
+ANA-COM:Segregació
+ANA-COM:Teoria de grups
+ANA-COM:Psicoanàlisi
+ANA-COV:Bifurcació*
+ANA-COV:Diaíresis
+ANA-COV:Disjunció
+ANA-COV:Dièresi
+ANA-COV:Divisió*
+ANA-DET:Dicotomia
+ANA-DET:Diferència*
+ANA-DET:Discerniment
+ANA-DET:Exclusió*
+ANA-DET:Expulsió*
+ANA-DIV:Judici particular
+ANA-DIV:Judici final
+ANA-ECN:Extracció* de dades
+ANA-ECN:Gramola
+ANA-ECN:Gramòfon
+ANA-ECN:Anàlisi econòmica
+ANA-EST:Analista
+ANA-EST:Contrast
+ANA-EST:Disputa
+ANA-EST:Divergència
+ANA-EST:Expressió figurada
+ANA-EST:Figura retòrica
+ANA-EST:Retòrica
+ANA-ET:Ordre
+ANA-EXC:Crítica
+ANA-EXC:Dissecció mental
+ANA-EXC:Garbell
+ANA-EXC:Holograma
+ANA-EXC:Sedàs
+ANA-FEN:Deducció
+ANA-FEN:Detall
+ANA-FEN:Distinció**
+ANA-FEN:Observació1
+ANA-FEN:Programa
+ANA-FEN:Proposició
+ANA-FEN:Telegrama
+ANA-FEN:Concreció formal
+ANA-FOL:Incoherència
+ANA-FOL:Llibertat
+ANA-FUN:Decrement
+ANA-FUN:Desconnexió
+ANA-FUN:Diferencial
+ANA-FUN:Inconnexió*
+ANA-FUN:Increment
+ANA-FUN:Connexió
+ANA-GLO:Art de seducció
+ANA-GLO:Candor
+ANA-GLO:Encant
+ANA-GLO:Glamur
+ANA-GLO:Prestigi
+ANA-HAR:Desunió
+ANA-IDE:Ideograma
+ANA-IDE:Previsió
+ANA-IDT:Descompte
+ANA-IDT:Desordre
+ANA-IDT:Indescripció
+ANA-LOG:Abscissa
+ANA-LOG:Càlcul proposicional
+ANA-LOG:Fórmula
+ANA-LOG:Ordenada
+ANA-LOG:Sintaxi proposicional
+ANA-LOG:Substracció*
+ANA-MIT:Jeroglífic1
+ANA-ONA:Dissonància
+ANA-ONA:Eco
+ANA-ONA:Pauta
+ANA-ONA:Ressò
+ANA-ONA:Ritme
+ANA-ONA:Sintonia
+ANA-PAS:Lectura
+ANA-PAS:Subjecte pacient
+ANA-PAS:Veu passiva
+ANA-PCS:Claredat*
+ANA-PCS:Crucigrama
+ANA-PCS:Desacoblament*
+ANA-PCS:Descomposició**
+ANA-PCS:Descripció
+ANA-PCS:Discurs
+ANA-PCS:Explicació
+ANA-PCS:Exposició
+ANA-PCS:Narració
+ANA-PCS:Nitidesa
+ANA-PCS:Qualitat
+ANA-PCS:“O”
+ANA-PCS:Desagregació
+ANA-POL:Cura
+ANA-POL:Puntualització
+ANA-POL:Especificació
+ANA-PRB:Aproximació
+ANA-PRB:Conjectura
+ANA-PRB:Hipòtesi
+ANA-PRB:Suposició
+ANA-PSI:Crisi
+ANA-PSI:Percepció
+ANA-PSI:Tria
+ANA-RAR:Dubte
+ANA-RAR:Eliminació
+ANA-RAR:Enigma
+ANA-SGT:Característica
+ANA-SGT:Classificació*
+ANA-SGT:Conjunt
+ANA-SGT:Diagrama
+ANA-SGT:Ramificació*
+ANA-SGT:Taxonomia
+ANA-SGT:Índex
+ANA-SLM:Encert
+ANA-SLM:Ull clínic
+ANA-SLM:descobriment
+ANA-STT:Endevinalla
+ANA-STT:Epigrama
+ANA-STT:Contradicció
+ANA-TEC:Diversitat
+ANA-TEO:Abstracció
+ANA-TEO:Forma
+ANA-TEO:Homogeneïtat dels conjunts
+ANA-TEO:Inducció
+ANA-TIA:Abandó1*
+ANA-TIA:Acriticisme
+ANA-TRB:Improvisació
+ANA-TRB:Precipitació
+ANA-TRB:Remoció*
+ANA-TRS:Deseiximent*
+ANA-TRS:Despreniment
+ANA-TRS:Secreció
+CC:Acció absoluta
+CC:Autocausació
+CC:Automatisme
+CC:Corrent
+CC:Curs
+CC:Cursa
+CC:Execució
+CC:Exercici1
+CC:Exercitació
+CC:Hiperactivitat
+CC:Hipoactivitat
+CC:Karma
+CC:Marxa
+CC:Màxim esforç
+CC:Ocupació
+CC:Panenergetisme
+CC:Perpetració
+CC:Procediment
+CC -PSI:Gesticulació
+EC:Manera de fer
+EC:Oficial
+EC:Professional
+ETI- ORG:Valor espontani
+ETI-ACC:Regles radicals del joc
+ETI-ACC:Regles radicals del procediment
+ETI-ACC:Ètica activa
+ETI-AFI:Autogovern jurídic
+ETI-AFI:Justícia
+ETI-AFI:Legitimitat
+ETI-AFI:Ètica afí
+ETI-AKA:Autonomia universal
+ETI-AKA:Ètica akàixica
+ETI-AMO:Autocontrol
+ETI-AMO:Corresponsabilitat
+ETI-AMO:Fidelitat
+ETI-AMO:Justícia amorosa
+ETI-AMO:Poder
+ETI-AMO:Poder propi
+ETI-AMO:Responsabilitat
+ETI-AMO:Tendresa
+ETI-AMO:Ètica amorosa
+ETI-APE:Conservació
+ETI-APE:Enrotllament concret
+ETI-APE:Inescrutabilitat de la natura
+ETI-APE:Memòria
+ETI-APE:Plasticitat concreta
+ETI-APE:Ètica apeirònica
+ETI-ARK:Causa primera
+ETI-ARK:Ètica arcana, arcaica
+ETI-ARQ:Codi de lleis
+ETI-ARQ:Sistema jurídic
+ETI-ARQ:Ètica arquetípica
+ETI-BOS:Hospitalitat
+ETI-BOS:Ètica acollidora
+ETI-BOS:Ètica bosònica
+ETI-BOS:Ètica cooperativa
+ETI-BOS:Ètica incloent
+ETI-CAS:Catàstrofe
+ETI-CAS:Ètica caòtica
+ETI-CFN:Austeritat ètica
+ETI-CFN:Calvinisme
+ETI-CFN:Pobresa ètica
+ETI-CFN:Puritanisme ètic
+ETI-CFN:Rigorisme ètic
+ETI-CFN:Santedat atea
+ETI-CFN:Severitat ètica
+ETI-CFN:Ètica confinada
+ETI-CIE:Deontologia científica
+ETI-CIE:Ètica científica
+ETI-CMN:Coherència pràctica
+ETI-CMN:Comunicació
+ETI-CMN:Condició natural
+ETI-CMN:Consens
+ETI-CMN:Dret natural
+ETI-CMN:Llei de vida
+ETI-CMN:Llei natural
+ETI-CMN:Ortopràxi
+ETI-CMN:Ètica comuna
+ETI-CNV:Cara de circumstàncies
+ETI-CNV:Conveniència
+ETI-CNV:Urbanitat
+ETI-CNV:Ètica convencional
+ETI-COM:Constitució
+ETI-COM:Contracte
+ETI-COM:Estatut
+ETI-COM:Estructura essencial de la comunitat
+ETI-COM:Regla
+ETI-COM:Ètica comunitària
+ETI-COS:Cosmos despietat
+ETI-COS:Cosmos impassible
+ETI-COS:Cosmos inexorable
+ETI-COS:Ètica còsmica
+ETI-DET:Aprovació
+ETI-DET:Contractació
+ETI-DET:Fundació
+ETI-DET:Pacte
+ETI-DET:Paraula donada, ferma
+ETI-DET:Promulgació fundacional
+ETI-DET:Ètica determinada
+ETI-DGS:Ètica desitjosa
+ETI-DIV:Autoritat divina
+ETI-DIV:Demiürg
+ETI-DIV:Voluntat creadora de Déu
+ETI-DIV:Ètica divina
+ETI-DSG:Fam de justícia
+ETI-EBR:Masoquisme
+ETI-EBR:Paroxisme
+ETI-EBR:Sadisme
+ETI-EBR:Ètica embriagada
+ETI-ECL:Equilibri universal
+ETI-ECL:Nació jurídica
+ETI-ECL:Patrimoni
+ETI-ECL:Pàtria jurídica
+ETI-ECL:Ètica ecològica
+ETI-ECN:Autosuficiència
+ETI-ECN:Estalvi
+ETI-ECN:Laboriositat
+ETI-ECN:Previsió
+ETI-ECN:Repartiment just
+ETI-ECN:Ètica econòmica
+ETI-ECU:Germanor
+ETI-ECU:Lluita de classes
+ETI-ECU:Ètica ecumènica
+ETI-EXP:Agressió
+ETI-EXP:Amenaça
+ETI-EXP:Corrupció social
+ETI-EXP:Extorsió
+ETI-EXP:Manipulació
+ETI-EXP:Ètica de situació
+ETI-EXP:Ètica experiencial
+ETI-FUN:Deontologia professional
+ETI-FUN:Ètica funcional
+ETI-GEN:Heroi
+ETI-GEN:Ètica genial
+ETI-HAR:Comportament global
+ETI-HAR:Imperatiu categòric
+ETI-HAR:Ètica harmònica
+ETI-IDT:Anòmia
+ETI-IDT:Ètica indeterminada
+ETI-LET:Acció retardada
+ETI-LET:Assuet
+ETI-LET:Reacció retardada
+ETI-MGM:Espontaneïtat
+ETI-MGM:Foscor ètica
+ETI-MGM:Impulsos revolucionaris repressats
+ETI-MGM:Ètica magmàtica
+ETI-MTF:Col·locar
+ETI-MTF:Correferència
+ETI-MTF:Independència jurídica
+ETI-MTF:Intuïció eidètica
+ETI-MTF:On
+ETI-MTF:Posar
+ETI-MTF:Referència
+ETI-MTF:Substància
+ETI-MTF:Ètica metafísica
+ETI-MTP:Consciència moral
+ETI-MTP:Daimon
+ETI-MTP:Veu de la consciència
+ETI-MTP:Veu interior
+ETI-MTP:Ètica metapsíquica
+ETI-NOU:Destí
+ETI-NOU:Deure
+ETI-NOU:Dharma
+ETI-NOU:Fat
+ETI-NOU:Fatalitat
+ETI-NOU:Moira
+ETI-NOU:Pecat
+ETI-NOU:Perdó
+ETI-NOU:Ètica noümènica
+ETI-OBJ:Ensopec
+ETI-OBJ:Equilibri particular
+ETI-OBJ:Llur, llurs
+ETI-OBJ:Meu
+ETI-OBJ:Nostre
+ETI-OBJ:Posseir
+ETI-OBJ:Resistència objectiva
+ETI-OBJ:Seu, seus
+ETI-OBJ:Teu
+ETI-OBJ:Vostre
+ETI-OBJ:Ètica objectiva
+ETI-OBL:Desobediència
+ETI-OBL:Disciplina ètica
+ETI-OBL:Humilitat
+ETI-OBL:Necessitat
+ETI-OBL:Obediència
+ETI-OBL:Obediència a les lleis de la natura
+ETI-OBL:Responsabilitat jurídica
+ETI-OBL:Ètica obligada
+ETI-OGN:Bioètica
+ETI-OGN:Dret de sang
+ETI-OGN:Familiaritat
+ETI-OGN:Integritat orgànica inalienable
+ETI-OGN:Organització modèlica
+ETI-OGN:Parentiu
+ETI-OGN:Pàtria potestat
+ETI-OGN:Sobirania jurídica
+ETI-OGN:Tutela
+ETI-OGN:Tutoria
+ETI-OGN:Veïnatge
+ETI-OGN:Ètica orgànica
+ETI-ONA:Dialèctica ètica
+ETI-ONA:Flexibilitat ètica
+ETI-ONA:Ètica ondulatòria
+ETI-ORG:Genotip
+ETI-ORG:Ètica fecundadora
+ETI-ORG:Ètica orgònica
+ETI-PAS:Protesta
+ETI-PAS:Reivindicació
+ETI-PAS:Venjança
+ETI-PAS:Ètica passional
+ETI-POL:Capteniment adequat
+ETI-POL:Instint
+ETI-POL:Reflex espontani
+ETI-POL:Ètica polida
+ETI-PRA:Acció profètica
+ETI-PRA:Areté
+ETI-PRA:Fortalesa
+ETI-PRA:Imperatiu moral
+ETI-PRA:Martyrium
+ETI-PRA:Primera matèria
+ETI-PRA:Testimoniatge
+ETI-PRA:Valor psicològic
+ETI-PRA:Ètica pràctica
+ETI-PRA:Resistència concreta
+ETI-PRD:Heroïcitat
+ETI-PRD:Honestedat
+ETI-PRD:No violència
+ETI-PRD:Testimoni
+ETI-PRD:Virtut
+ETI-PRD:Ètica prodigiosa
+ETI-RAR:Bretolada
+ETI-RAR:Do de llengües
+ETI-RAR:Glossolalia
+ETI-RAR:Ètica rara
+ETI-RGN:Llei pacificadora
+ETI-RGN:Ètica regnant
+ETI-SGE:Avís natural
+ETI-SGE:Axiologia
+ETI-SGE:Caràcter
+ETI-SGE:Manera de ser
+ETI-SGE:Nom indèxic
+ETI-SGE:Valor axiològic
+ETI-SGE:Ètica sígnica
+ETI-SGT:Denúncia
+ETI-SGT:Moral
+ETI-SGT:Ètica alliçonadora
+ETI-SGT:Ètica significativa
+ETI-SIN:Codi costumer
+ETI-SIN:Dret consuetudinari
+ETI-SIN:Dret costumer
+ETI-SIN:Model ètic
+ETI-SIN:Responsabilitat universal
+ETI-SIN:Usatge
+ETI-SIN:Ètica sintètica
+ETI-SLM:Santedat
+ETI-SLM:Ètica sublim
+ETI-STM:Dignitat
+ETI-STM:Honor
+ETI-STM:Ètica emocional
+ETI-STM:Ètica sentimental
+ETI-TIA:Humilitat senzilla
+ETI-TIA:Mansoi
+ETI-TIA:Mansuet
+ETI-TIA:Protecció
+ETI-TIA:Providència universal
+ETI-TIA:Ètica tiamàtica
+ETI-TRB:Acció reivindicativa
+ETI-TRB:Càstig
+ETI-TRB:Repressió
+ETI-TRB:Resistència biològica
+ETI-TRB:Resistència social
+ETI-TRB:Revolució
+ETI-TRB:Sang i fetge
+ETI-TRB:Sedició
+ETI-TRB:Violència
+ETI-TRB:Ètica turbulenta
+ETI-TRB.:Defensa immunològica
+EXP-ACC:Acte de treballar
+EXP-ACC:Activitat
+EXP-ACC:Actuació
+EXP-ACC:Esforç
+EXP-ACC:Faïment
+EXP-ACC:Feina
+EXP-ACC:Moció2
+EXP-AGU:Destresa2
+EXP-AGU:Facilitat
+EXP-AGU:Llestesa
+EXP-AGU:Perícia
+EXP-AGU:Tàctica
+EXP-AKA:Confiança1
+EXP-AKA:Optimisme
+EXP-AKA:Seguretat
+EXP-APE:Impressió general
+EXP-ART:Afecció1
+EXP-ART:Capacitat2
+EXP-ART:Murrieria
+EXP-ATZ:Atzar d’ignorància
+EXP-ATZ:Sort
+EXP-ATZ:Vigilància
+EXP-BEL:Agradabilitat
+EXP-BEL:Exquisidesa
+EXP-BEL:Gust2
+EXP-CAS:Conflictivitat
+EXP-CAS:Guerra1
+EXP-CAS:Pugna
+EXP-CIE:Coneixença
+EXP-CIE:Examen2
+EXP-CIE:Expertesa
+EXP-CIE:Instrucció
+EXP-CIE:Lliçó
+EXP-CIE:Projecció
+EXP-COM:Cooperació
+EXP-COM:Proïsme
+EXP-COM:Temptativa
+EXP-COM:Tracte
+EXP-COM:Veïnatge
+EXP-COS:Confirmació
+EXP-COS:Impressió de conjunt
+EXP-DET:Coneixement*
+EXP-DET:Decisió
+EXP-DSG:Intent
+EXP-DSG:Talent
+EXP-DSG:Vitalitat
+EXP-EBR:Espontaneïtat
+EXP-EBR:Sofriment
+EXP-ECL:Condicionament
+EXP-ECL:Escrúpol
+EXP-ECL:Medi ambient
+EXP-ECN:Exemple
+EXP-ECN:Producció2
+EXP-ECN:Rendiment
+EXP-ECU:Concili
+EXP-ECU:Participació2
+EXP-EST:Bona impressió
+EXP-EST:Escaiença
+EXP-ETI:Circumstància
+EXP-ETI:Exigència
+EXP-EXC:Advertiment
+EXP-EXC:Competitivitat
+EXP-EXC:Experiència global
+EXP-EXC:Notícia
+EXP-FEN:Concurrència
+EXP-FEN:Ensenyament
+EXP-FEN:Escola
+EXP-FEN:Experiència elemental
+EXP-FEN:Magisteri
+EXP-FEN:Mestratge
+EXP-FEN:Qualificació
+EXP-FUN:Competència2
+EXP-FUN:Eficiència
+EXP-FUN:Ensinistrament
+EXP-GLO:Admiració
+EXP-GLO:Enaltiment
+EXP-IDT:Desviacions
+EXP-IDT:Distracció
+EXP-LOG:Mundologia
+EXP-LOG:Ordenació
+EXP-MGM:Confrontació
+EXP-MGM:Vivor
+EXP-MIS:Premonició
+EXP-MIS:Sospita
+EXP-OBL:Condicions
+EXP-OBL:Eficàcia
+EXP-ONA:Idoneïtat
+EXP-ONA:Sintonització
+EXP-PAS:Antipatia
+EXP-PAS:Empatia
+EXP-PAS:Simpatia
+EXP-PCS:Detallisme
+EXP-PCS:Especialització
+EXP-PCS:Minuciositat
+EXP-POL:Aprenentatge*
+EXP-POL:Diligència
+EXP-POL:Habilitat2
+EXP-PRA:Condició física
+EXP-PRA:Consum
+EXP-PRA:Entrenament
+EXP-PRA:Experimentació
+EXP-PRA:Força de treball
+EXP-PRA:Intuïció sensible
+EXP-PRA:Observació2
+EXP-PRB:Assaig2*
+EXP-PRB:Prova2
+EXP-PRB:Sondeig
+EXP-PRD:Exercici2
+EXP-PRD:Força física2
+EXP-PRD:Impuls físic
+EXP-PRD:Sorpresa
+EXP-PSI:Conducta2
+EXP-PSI:Consciència sensible
+EXP-PSI:Context meu
+EXP-PSI:Entorn meu
+EXP-PSI:Impressió
+EXP-PSI:Sensació meva
+EXP-RGN:Impressió bona
+EXP-RGN:Impressió mala
+EXP-SGE:Aplicació
+EXP-SGE:Heterogeneïtat
+EXP-SGE:Món immediat
+EXP-SGE:Situació
+EXP-SGE:Tocament
+EXP-STM:Joc
+EXP-STM:Sensibilitat
+EXP-TEC:Construcció2
+EXP-TEC:Empirisme
+EXP-TEC:Experiment
+EXP-TEC:Possessió
+EXP-TEC:Treball
+EXP-TRB:Agitació
+EXP-TRB:Competició
+EXP-TRB:Fogueig
+EXP-TRB:Inestabilitat
+EXP-TRB:Trontoll
+EXP-TRS:Consell
+EXP-TRS:Torbament
+IS:Contemplació
+IS -ARK:Oracles Caldeus
+MIS- COS:Sentiment oceànic
+MIS-ACC:Empenta mística
+MIS-ACC:Mística activa
+MIS-AGU:Mestratge místic
+MIS-AGU:Mestre espiritual
+MIS-AGU:Mística aguda
+MIS-AKA:Mística akàixica
+MIS-AKA:Mística plàsmica
+MIS-AKA:Èxtasi naixent
+MIS-AKA:Èxtasi radical
+MIS-AKA:Èxtasi seminal
+MIS-AKA:Èxtasi unitari
+MIS-AMO:Caritat
+MIS-AMO:Mística amorosa
+MIS-AMO:Èxtasi amorós, no possessiu
+MIS-AMO:Amor de caritat
+MIS-APE:Anòmia mística
+MIS-APE:Aquelarre
+MIS-APE:Bacanal mística
+MIS-APE:Lucifer
+MIS-APE:Missa negra
+MIS-APE:Mística apeirònica
+MIS-APE:Orgia mística
+MIS-ARK:Esoterisme2
+MIS-ARK:Hermetisme
+MIS-ARK:Hierós
+MIS-ARK:Iniciació mística
+MIS-ARK:Mística arcana, arcaica
+MIS-ARK:Orfisme
+MIS-ARK:Xamanisme
+MIS-ARK:Mistagògies
+MIS-ARK:Misteri
+MIS-ARK:Misteris iniciàtics
+MIS-ARQ:Llei de Déu
+MIS-ARQ:Mística arquetípica
+MIS-ARQ:Poble de Déu
+MIS-ART:Art de contemplació
+MIS-ART:Mística artística
+MIS-ART:Poesia mística
+MIS-AST:Designi amagat de Déu
+MIS-AST:Mentida profètica
+MIS-AST:Mística astuta
+MIS-BEL:Espòs/a
+MIS-BEL:Mística bella
+MIS-CAS:Entusiasme
+MIS-CAS:Mística caòtica
+MIS-CFN:Mística confinada
+MIS-CFN:Mística reprimida
+MIS-CFN:Nit de l’esperit
+MIS-CFN:Silenci místic
+MIS-CFN:Soledat mística
+MIS-CFN:Mística separada
+MIS-CMN:Compartició mística
+MIS-CMN:Mística comuna
+MIS-CMN:Ànimes bessones
+MIS-COM:Contesa ritual
+MIS-COM:Mística comunitària
+MIS-COM:Ànima comuna
+MIS-COS:Cos místic de Crist
+MIS-COS:Crist místic
+MIS-COS:Mística còsmica
+MIS-DIV:Inspiració divina
+MIS-DIV:Mística divina
+MIS-DIV:Oració
+MIS-DIV:Santeria
+MIS-DIV:Experiència divina
+MIS-DSG:Atracció mística
+MIS-DSG:Mística desitjosa
+MIS-EBR:Mística embriagada
+MIS-EBR:Pentecosta
+MIS-ECL:Comunitat troncal
+MIS-ECL:Mística ecològica
+MIS-ECN:Austeritat espiritual
+MIS-ECN:Laboriositat des de l’esperit
+MIS-ECN:Mística econòmica
+MIS-ECN:Senzillesa espiritual
+MIS-ECN:Servei amorós
+MIS-ECN:Solidaritat des de l’esperit
+MIS-ECN:Pobresa espiritual
+MIS-ECU:Mística ecumènica
+MIS-ECU:Mística mundana
+MIS-ECU:Superposició d’esperits
+MIS-ECU:Èxtasi col·lectiu
+MIS-ECU:Èxtasi madur, ple
+MIS-EXP:Aparicions
+MIS-EXP:Experiència mística
+MIS-EXP:Mística experiencial
+MIS-FEL:Joia mística
+MIS-FEL:Mística feliç
+MIS-FEN:Fenomen místic
+MIS-FOL:Follia de Jesús segons familiars seus
+MIS-FOL:Follia de Pau per causa de Crist
+MIS-FOL:Jesús boig segons la seva família
+MIS-FOL:Mística folla
+MIS-FOL:Pau foll per Crist
+MIS-FOL:Simeó el Boig
+MIS-FOL:Simeó l’Estilita
+MIS-GEN:Avatar
+MIS-GEN:Mística genial
+MIS-GEN:Resurrecció
+MIS-GLO:Glòria de Déu
+MIS-GLO:Mística gloriosa
+MIS-GLO:Santedat gloriosa
+MIS-HAR:Mística harmònica
+MIS-HAR:Santedat
+MIS-INT:Mística dirigida
+MIS-INT:Mística finalista
+MIS-INT:Mística intencionada
+MIS-INT:Mística lluitadora
+MIS-LET:Abandonament místic
+MIS-LET:Mística letàrgica
+MIS-LET:Son espiritual
+MIS-LET:Quietisme
+MIS-MGM:Mística magmàtica
+MIS-MGM:Mística repressada
+MIS-MIT:Dimoni místic
+MIS-MIT:Àngel místic
+MIS-MTF:Gnosi
+MIS-MTF:Mística metafísica
+MIS-MTP:Desposori espiritual
+MIS-MTP:Influència mística
+MIS-MTP:Interfusió d’esperits
+MIS-MTP:Musa
+MIS-MTP:Mística metapsíquica
+MIS-MTP:Parapsicologia
+MIS-MTP:Possessió
+MIS-MTP:Sádhana
+MIS-MTP:Sacralitat
+MIS-NOU:Mysterienlehere
+MIS-NOU:Mística noümènica
+MIS-NOU:Unió transformant
+MIS-NOU:Experiència interior transcendent
+MIS-NOU:Matrimoni espiritual
+MIS-NOU:Transcendència mística
+MIS-OBL:Mística obligada
+MIS-OBL:Proves místiques
+MIS-OBL:Contemplació adquirida
+MIS-OBL:Normes místiques
+MIS-OGN:Epigènesi
+MIS-OGN:Guia de l’ontogènesi
+MIS-OGN:Mística embriològica
+MIS-OGN:Mística orgànica
+MIS-OGN:Ou Primigeni
+MIS-ORG:Capacitat mística
+MIS-ORG:Màgia mística
+MIS-ORG:Mística orgònica
+MIS-ORG:Potència mística
+MIS-ORG:Bruixeria
+MIS-ORG:Fetilleria
+MIS-PAS:Gelosia de Déu
+MIS-PAS:Ira de Déu
+MIS-PAS:Mística passional
+MIS-PAS:Zel de la glòria de Déu
+MIS-POL:Aforismes de Patañjali
+MIS-POL:Mística polida
+MIS-POL:Regles de contemplació
+MIS-PRA:Força gratuïta
+MIS-PRA:Força infosa
+MIS-PRA:Força mística
+MIS-PRA:Mística pràctica
+MIS-PRA:Pràctica infosa, transcendent
+MIS-PRD:Meravelles
+MIS-PRD:Mística prodigiosa
+MIS-PRD:Poders espirituals
+MIS-PRD:Siddhi
+MIS-PRD:Miracles
+MIS-RGN:Avinença
+MIS-RGN:Concòrdia
+MIS-RGN:Consens
+MIS-RGN:Mística regnant
+MIS-SGE:Mística sígnica
+MIS-SGE:Posat extàtic
+MIS-SGE:Tot
+MIS-SIN:Ciència infosa
+MIS-SIN:Guru místic
+MIS-SIN:Llibres sagrats sapiencials
+MIS-SIN:Mística sintètica
+MIS-SIN:Mística sàvia
+MIS-SIN:Experiència infosa
+MIS-SLM:Bateig de Jesús
+MIS-SLM:Comunicación horrenda
+MIS-SLM:Mística sublim
+MIS-SLM:Pau al tercer cel
+MIS-SLM:Sublimitat de les revelacions
+MIS-SLM:Transfiguració
+MIS-SLM:Èxtasi de Santa Teresa de Bernini
+MIS-STM:Enamorament místic
+MIS-STM:Mística sentimental
+MIS-STT:Esoterisme1
+MIS-STT:Fotitzoménoi
+MIS-STT:Il·luminació
+MIS-STT:Mística amb sentit
+MIS-STT:Indicibilitat
+MIS-STT:Inefabilitat
+MIS-SUB:Bakhti
+MIS-SUB:Devoció
+MIS-SUB:Estats de consciència místics
+MIS-SUB:Fidelitat a la transcendència
+MIS-SUB:Mística subjectiva
+MIS-SUB:“Amat”
+MIS-SUB:“Amic”
+MIS-TIA:Alegria perfecta
+MIS-TIA:Confiança mística
+MIS-TIA:Mística tiamàtica
+MIS-TRB:Apocalipsi
+MIS-TRB:Dionisos
+MIS-TRB:Foc de Déu
+MIS-TRB:Lluita amb Déu
+MIS-TRB:Mística turbulenta
+MIS-TRB:Impuls dionisíac
+MIS-TRS:Enviat
+MIS-TRS:Mèdium
+MIS-TRS:Mística en trànsit
+MIS-TRS:Possés
+MIS-TRS:Profeta
+MIT-AGU:Bruixeria
+MIT-AGU:Mítica aguda
+MIT-AGU:Sacerdoci
+MIT-AGU:Santeria
+MIT-AGU:Xamanisme
+MIT-AKA:Línia d’univers
+MIT-AKA:Mítica akàixica
+MIT-AKA:Veu interior
+MIT-AMO:Bhakti
+MIT-AMO:Consolació de les escriptures
+MIT-AMO:Desposori espiritual
+MIT-AMO:Matrimoni diví
+MIT-AMO:Mítica amorosa
+MIT-AMO:Pietat
+MIT-ANA:Mitologia formal
+MIT-ANA:Mítica analítica
+MIT-APE:Anihilació1
+MIT-APE:Creació
+MIT-APE:Mítica apeirònica
+MIT-APE:Teogonia1
+MIT-APE:Vespre dels déus
+MIT-ARK:Inspiració mítica
+MIT-ARK:Mítica arcana
+MIT-ARQ:Mite cultural
+MIT-ARQ:Mítica arquetípica
+MIT-ART:Art sagrat
+MIT-ART:Funció litúrgica
+MIT-ART:Mítica artística
+MIT-AST:Estratègies divines
+MIT-AST:Mítica astuta
+MIT-BEL:Mítica bella
+MIT-BEL:Teofania
+MIT-CAV:Anihilació2
+MIT-CAV:Apocalíptic
+MIT-CAV:Diluvi
+MIT-CAV:Hecatombe
+MIT-CAV:Mítica caovisiva
+MIT-CFN:Altra vida
+MIT-CFN:Altre món
+MIT-CFN:Més enllà
+MIT-CFN:Mítica confinada
+MIT-CMN:Comunió de tradició
+MIT-CMN:Mítica comuna
+MIT-CMN:Tradició
+MIT-CMN:Tradició local
+MIT-CNV:Espectacles mítics
+MIT-CNV:Faula1
+MIT-CNV:Mítica convencional
+MIT-CNV:Rondalla 1
+MIT-COM:Imaginari col·lectiu
+MIT-COM:Mítica comunitària
+MIT-COV:Cosmogonia
+MIT-COV:Escatologia
+MIT-COV:Mítica cosmovisiva
+MIT-DET:Autoritat mítica
+MIT-DET:Interpretació mítica
+MIT-DET:Mítica determinada
+MIT-DIV:Mítica divina
+MIT-DIV:Teogonia2
+MIT-DIV:Èxtasi dionisíac
+MIT-DIV:Èxtasi diví
+MIT-DSG:Evangeli
+MIT-DSG:Missió
+MIT-DSG:Mítica desitjosa
+MIT-DSG:Predicació
+MIT-DSG:Proselitisme
+MIT-EBR:Edèn
+MIT-EBR:Mítica embriagada
+MIT-EBR:Paradís
+MIT-ECL:Cel de les estrelles fixes
+MIT-ECL:Cicle litúrgic
+MIT-ECL:Etern retorn
+MIT-ECL:Mítica ecològica
+MIT-ECL:Ordre còsmic cíclic
+MIT-ECU:Mítica ecumènica
+MIT-ECU:Prisca theologia
+MIT-ECU:Religió universal
+MIT-ECU:Teosofia
+MIT-FEL:Beatitud
+MIT-FEL:Benaurança
+MIT-FEL:Càstig
+MIT-FEL:Malaurança
+MIT-FEL:Mítica feliç
+MIT-FEL:Premi
+MIT-FOL:Bogeria mítica
+MIT-FOL:Carisma
+MIT-FOL:Do de llengües
+MIT-FOL:Glosolàlia
+MIT-FOL:Hermenèutica mítica
+MIT-FOL:Interpretació de llengües
+MIT-FOL:Mania
+MIT-FOL:Mítica folla
+MIT-FOL:Orgia
+MIT-GEN:Acció profètica
+MIT-GEN:Anaciclosi
+MIT-GEN:Metempsicosi
+MIT-GEN:Mítica genial
+MIT-GEN:Paraula profètica
+MIT-GEN:Profeta
+MIT-GEN:Resurrecció
+MIT-GEN:Transmigració
+MIT-GLO:Història de salvació
+MIT-GLO:Imaginari d’alliberament
+MIT-GLO:Mítica gloriosa
+MIT-GLO:Pasqua
+MIT-GLO:Salvació
+MIT-HAR:Acció litúrgica
+MIT-HAR:Celebració
+MIT-HAR:Festa
+MIT-HAR:Mítica harmònica
+MIT-IDT:Confusió mítica
+MIT-IDT:Mítica indeterminada
+MIT-INT:Espiritisme
+MIT-INT:Mítica intencional
+MIT-INT:Possessió espiritual
+MIT-LET:Mítica letàrgica
+MIT-LET:Son mítica
+MIT-MGM:Foc interior
+MIT-MGM:Mítica magmàtica
+MIT-MGM:Vulcà
+MIT-MTF:Dogma
+MIT-MTF:Manament
+MIT-MTF:Model mític
+MIT-MTF:Mítica metafísica
+MIT-MTF:Paradigma mític
+MIT-MTF:Revelació
+MIT-MTP:Bruixa, bruixot
+MIT-MTP:Litúrgia
+MIT-MTP:Mag
+MIT-MTP:Màgia
+MIT-MTP:Mítica metapsíquica
+MIT-MTP:Ritu, ritual
+MIT-MTP:Sacerdot
+MIT-MTP:Sagrament
+MIT-MTP:Sagramental
+MIT-MTP:Temple
+MIT-NOU:Esperit Sant
+MIT-NOU:Esperit universal
+MIT-NOU:Mítica noümènica
+MIT-NOU:Ànima de l’univers
+MIT-OGN:Màgia mundana
+MIT-OGN:Mítica orgànica
+MIT-OGN:Sortilegi
+MIT-ORG:Màgia radical
+MIT-ORG:Mítica orgónica
+MIT-PAS:Mítica passional
+MIT-PAS:Tragèdia
+MIT-PCS:Document mític
+MIT-PCS:Monument mític
+MIT-PCS:Mítica precisa
+MIT-PRB:Història mítica
+MIT-PRB:Mítica probable
+MIT-RAR:Elecció divina
+MIT-RAR:Mítica rara
+MIT-RGN:Imaginari assumit
+MIT-RGN:Mítica regnant
+MIT-SGT:Avís mític
+MIT-SGT:Ensenyament mític
+MIT-SGT:Missatge mític
+MIT-SGT:Mítica significativa
+MIT-SGT:Testimoni
+MIT-SGT:Vaticini
+MIT-SIN:Epopeies mítiques
+MIT-SIN:Escriptures sagrades
+MIT-SIN:Mìtica sintètica
+MIT-SIN:Teologia
+MIT-SLM:Cel
+MIT-SLM:Cort celestial
+MIT-SLM:Infern
+MIT-SLM:Mítica sublim
+MIT-SLM:Olimp
+MIT-SLM:Tercer cel
+MIT-STM:Crida
+MIT-STM:Designi
+MIT-STM:Mítica sentimental
+MIT-STM:Vocació
+MIT-STT:Conte
+MIT-STT:Faula2
+MIT-STT:Llegenda
+MIT-STT:Mite
+MIT-STT:Mítica amb sentit
+MIT-STT:Rondalla2
+MIT-STT:Saga
+MIT-SUB:Dimoni, diable
+MIT-SUB:Dona d’aigua
+MIT-SUB:Esperit
+MIT-SUB:Fada
+MIT-SUB:Follet
+MIT-SUB:Gegant
+MIT-SUB:Genis
+MIT-SUB:Heroi, heroïcitat
+MIT-SUB:Mítica subjectiva
+MIT-SUB:Persones divines
+MIT-SUB:Sant
+MIT-SUB:Semidéu
+MIT-SUB:Àngels
+MIT-SUB:Ànima
+MIT-TEO:Gènere mític
+MIT-TEO:Mitologia
+MIT-TEO:Mítica teòrica
+MIT-TIA:Animisme
+MIT-TIA:Mítica tiamàtica
+MIT-TIA:Panteisme
+MIT-TRS:Evocació dels morts
+MIT-TRS:Mítica en trànsit
+MIT-TRS:Nigromància
+MIT-TRS:Possessió corporal
+MIT-TRS:Transfiguració
+MO:AMOR**
+MO:Dilecció
+MO:Guerra2
+MO:Indiferència
+MO:Odi
+MO:Pau
+MO:Predilecció
+MO:Puruixa
+NA:ANÀLISI
+NA:Accident
+NA:Analític
+NA:Articulació
+NA:Combinació
+NA:Comparació
+NA:Construcció1
+NA:Deconstrucció
+NA:Desarticulació
+NA:Desdoblament
+NA:Desintegració
+NA:Desmembrament
+NA:Destrucció
+NA:Desviació*
+NA:Desvinculació
+NA:Detracció
+NA:Exoterisme
+NA:Gramàtica
+NA:Reagrupament
+NA:Semblança
+NA:Separació**
+NA:Sintaxi
+NA:Temps cronològic
+NA:Variable
+NA:Verb gramatical
+NA -FEN:Crim
+PSI-ACC:Psíquica activa
+PSI-ACC:Tafaneig
+PSI-ACC:Trepidació psíquica
+PSI-ACC:Xafarderia
+PSI-AGU:Imatges viscudes
+PSI-AGU:Psíquica aguda
+PSI-AGU:Qualitat psíquica
+PSI-AKA:Confiança
+PSI-AKA:Psíquica akàixica
+PSI-AMO:Amistat
+PSI-AMO:Psíquica amorosa
+PSI-ANA:Pensaments viscuts
+PSI-ANA:Psicoanàlisi
+PSI-ANA:Psíquica analítica
+PSI-APE:Fonament psíquic
+PSI-APE:Imprevisibilitat psíquica
+PSI-APE:Psíquica apeirònica
+PSI-APE:Salut psíquica
+PSI-APE:Tranquil·litat psíquica
+PSI-ART:Educació
+PSI-ART:Emoció estètica
+PSI-ART:Novel·la
+PSI-ART:Pel·lícula
+PSI-ART:Psíquica artística
+PSI-ART:Teatre
+PSI-AST:Esquizotímia
+PSI-AST:Intenció segona
+PSI-AST:Ma esquerra
+PSI-AST:Psíquica astuta
+PSI-ATZ:Psíquica atzarosa
+PSI-ATZ:Sort
+PSI-BEL:Presumit
+PSI-BEL:Psíquica bella
+PSI-BEL:Vanitat
+PSI-CAS:Caos interior
+PSI-CAS:Psíquica caòtica
+PSI-CIE:Evocació
+PSI-CIE:Psicologia experimental
+PSI-CIE:Psíquica científica
+PSI-CIE:Record viscut
+PSI-COM:Complicitat
+PSI-COM:Psíquica comunitària
+PSI-COM:Vida interior
+PSI-COS:Panpsiquisme
+PSI-COS:Psíquica còsmica
+PSI-DET:Psíquica determinada
+PSI-DET:Tenacitat
+PSI-DET:Voluntat
+PSI-DIV:Drama diví
+PSI-DIV:Psíquica divina
+PSI-DSG:Desfici interior
+PSI-DSG:Psíquica desitjosa
+PSI-EBR:Disbauxa
+PSI-EBR:Plaer psíquic
+PSI-EBR:Plenitud de plaer
+PSI-EBR:Psíquica embriagada
+PSI-EBR:Si us plau
+PSI-EBR:Temperança
+PSI-ECL:Psíquica aprofitadora
+PSI-ECL:Psíquica ecològica
+PSI-ECL:Psíquica enginyosa
+PSI-ECL:Psíquica recicladora
+PSI-ECN:Austeritat
+PSI-ECN:Emprenedor
+PSI-ECN:Estalviador
+PSI-ECN:Gasiveria
+PSI-ECN:Psíquica econòmica
+PSI-ECU:Ajuda mútua
+PSI-ECU:Mutualitat
+PSI-ECU:Solidaritat
+PSI-EXC:Adequació psíquica
+PSI-EXC:Psíquica exacta
+PSI-EXP:Acció viscuda
+PSI-EXP:Comportament
+PSI-EXP:Experiència psíquica
+PSI-EXP:Percepció
+PSI-EXP:Psíquica experiencial
+PSI-FEL:Alegria psíquica
+PSI-FEL:Joia psíquica
+PSI-FEL:Psíquica feliç
+PSI-FEN:Moció
+PSI-FEN:Motoricitat
+PSI-FEN:Psíquica fenomènica
+PSI-FEN:Quotidianitat
+PSI-FEN:Sensació
+PSI-FEN:Sensibilitat
+PSI-FOL:Antull
+PSI-FOL:Caprici
+PSI-FOL:Despropòsit
+PSI-FOL:Neurosi
+PSI-FOL:Psicosi
+PSI-FOL:Psíquica folla
+PSI-FUN:Compliment
+PSI-FUN:Eficàcia
+PSI-FUN:Endreç
+PSI-FUN:Laboriositat
+PSI-FUN:Psíquica funcional
+PSI-GEN:Genialitat interior
+PSI-GEN:Psíquica genial
+PSI-GLO:Enlairament gloriós
+PSI-GLO:Frescor psíquic
+PSI-GLO:Humiliació
+PSI-GLO:Lluminositat psíquica
+PSI-GLO:Psíquica gloriosa
+PSI-IDT:Descontrol d’energia psíquica
+PSI-IDT:Desendreç psíquic
+PSI-IDT:Desordre psíquic
+PSI-IDT:Malbaratament psíquic
+PSI-IDT:Psíquica indeterminada
+PSI-INT:Decisió viscuda
+PSI-INT:Psíquica intencional
+PSI-INT:Volició
+PSI-LET:Absència psíquica
+PSI-LET:Badoqueria
+PSI-LET:Indolència
+PSI-LET:Ineficàcia psíquica
+PSI-LET:Informalitat psíquica
+PSI-LET:Lentitud psíquica
+PSI-LET:Peresa
+PSI-LET:Psíquica letàrgica
+PSI-LET:Mandra
+PSI-MGM:Drac interior
+PSI-MGM:Psíquica magmàtica
+PSI-MTP:Consciència psíquica
+PSI-MTP:Psíquica metapsíquica
+PSI-OBL:Deure psíquic
+PSI-OBL:Psíquica obligada
+PSI-OBL:Treball
+PSI-ONA:Bipolaritat
+PSI-ONA:Psíquica ondulada
+PSI-PAS:Arrels dels afectes
+PSI-PAS:Psíquica passional
+PSI-PCS:Exigència
+PSI-PCS:Psíquica precisa
+PSI-PCS:Claredat interior
+PSI-POL:Psíquica polida
+PSI-POL:Virtuosisme
+PSI-PRA:Impuls interior
+PSI-PRA:Impuls popular
+PSI-PRA:Intuïció
+PSI-PRA:Joc interior
+PSI-PRA:Psíquica pràctica
+PSI-PRB:Esperança
+PSI-PRB:Expectativa psíquica
+PSI-PRB:Psíquica probable
+PSI-PRB:Sorpresa
+PSI-PRB:Sospita
+PSI-PRD:Gosadia
+PSI-PRD:Paciència
+PSI-PRD:Psíquica prodigiosa
+PSI-PRD:Satyagraha
+PSI-PRD:Tremp
+PSI-PRD:Valor psíquic
+PSI-RGN:Pau viva
+PSI-RGN:Placidesa
+PSI-RGN:Psíquica regnant
+PSI-SGE:Psíquica sígnica
+PSI-SGE:Símptomes
+PSI-STM:Afecte
+PSI-STM:Emoció psíquica
+PSI-STM:Psíquica sentimental
+PSI-STM:Sentiments viscuts
+PSI-STT:In pectore
+PSI-STT:Intenció privada
+PSI-STT:Psíquica amb sentit
+PSI-SUB:Intimitat
+PSI-SUB:Psíquica personal
+PSI-SUB:Psíquica subjectiva
+PSI-TIA:Generositat
+PSI-TIA:Irresponsabilitat
+PSI-TIA:Psíquica tiamàtica
+PSI-TRB:Agitació Psíquica
+PSI-TRB:Inestabilitat psíquica
+PSI-TRB:Psíquica turbulenta
+PSI-TRS:Alarma psíquica
+PSI-TRS:Exaltació psíquica
+PSI-TRS:Excitació psíquica
+PSI-TRS:Psíquica en trànsit
+Pan-ene:Pan-energia AMO-SGE
+S:Èxtasi M
+TEC-ACC:Energia
+TEC-ACC:Tècnica activa
+TEC-AFI:Adaptar
+TEC-AFI:Entrellaçar
+TEC-AFI:Teixir
+TEC-AFI:Text
+TEC-AFI:Trenar
+TEC-AFI:Tècnica afí
+TEC-AFI:Tècnica apropiada
+TEC-AGU:Afinament
+TEC-AGU:Esmolar
+TEC-AGU:Tècnica aguda
+TEC-AKA:Nacionalitat
+TEC-AKA:Protecció
+TEC-AKA:Tarannà
+TEC-AKA:Tècnica akàixica
+TEC-AMO:Cura
+TEC-AMO:Prova moral
+TEC-AMO:Temptació
+TEC-AMO:Tècnica amorosa
+TEC-ANA:Detall
+TEC-ANA:Instruccions
+TEC-ANA:Manual d’instruccions
+TEC-ANA:Minuciositat
+TEC-ANA:Tipus de qualitat
+TEC-ANA:Tècnica analítica
+TEC-APE:Divagació
+TEC-APE:Provatura
+TEC-APE:Tempteig
+TEC-APE:Tècnica apeirònica
+TEC-ARK:Invent
+TEC-ARK:Prometeu
+TEC-ARK:Secret gremial
+TEC-ARK:Secret industrial
+TEC-ARK:Tècnica arcana
+TEC-ARQ:Enginy
+TEC-ARQ:Prototipus
+TEC-ARQ:Tipus tècnic
+TEC-ARQ:Tècnica arquetípica
+TEC-ART:Artesania
+TEC-ART:Artificialitat
+TEC-ART:Tècnica artística
+TEC-ATZ:Casualitat tècnica
+TEC-ATZ:Imprevist tècnic
+TEC-ATZ:Nanotecnologia
+TEC-ATZ:Oportunitat tècnica
+TEC-ATZ:Sinistralitat
+TEC-ATZ:Tècnica atzarosa
+TEC-ATZ:Tècnica quàntica
+TEC-BEL:Agilitat tècnica
+TEC-BEL:Alquímia
+TEC-BEL:Expressivitat tècnica
+TEC-BEL:Fascinació tècnica
+TEC-BEL:Simplicitat tècnica
+TEC-BEL:Tècnica bella
+TEC-BOS:Paratècniques quàntiques
+TEC-BOS:Tècnica bosònica
+TEC-CAS:Desordre tècnic
+TEC-CAS:Imprevisibilitat
+TEC-CAS:Tècnica caòtica
+TEC-CIE:Astrofísica
+TEC-CIE:Biologia
+TEC-CIE:Electrònica
+TEC-CIE:Física
+TEC-CIE:Geografia
+TEC-CIE:Informàtica
+TEC-CIE:Mecànica
+TEC-CIE:Mestre tècnic
+TEC-CIE:Mètode
+TEC-CIE:Química
+TEC-CIE:Sociologia
+TEC-CIE:Tecnologia
+TEC-CIE:Tècnica científica
+TEC-CIE:Tècnociència
+TEC-CNV:Convenció tècnica
+TEC-CNV:Conveniència tècnica
+TEC-CNV:Costum tècnic
+TEC-CNV:Pacte tècnic
+TEC-CNV:Tècnica convencional
+TEC-CNV:Tècnica convenient
+TEC-COM:Confederació
+TEC-COM:Constitucions
+TEC-COM:Estatut
+TEC-COM:Federació
+TEC-COM:Fides
+TEC-COM:Foedus
+TEC-COM:Pacte
+TEC-COM:Pactes matrimonials
+TEC-COM:Privilegi
+TEC-COM:Regla
+TEC-COM:Sacrilegi
+TEC-COM:Traïció
+TEC-COM:Tècnica comunitària
+TEC-COS:Tècnica còsmica
+TEC-COS:Universalitat tècnica
+TEC-DET:Autorització
+TEC-DET:Comanda
+TEC-DET:Norma
+TEC-DET:Promulgació
+TEC-DET:Protocol
+TEC-DET:Reglament
+TEC-DET:Tècnica determinada
+TEC-DSG:Demanda
+TEC-DSG:Incentius
+TEC-DSG:Oferta
+TEC-DSG:Publicitat
+TEC-DSG:Tècnica desitjosa
+TEC-EBR:Descontrol tècnic eufòric
+TEC-EBR:Tècnica embriagada
+TEC-EBR:Vertigen tècnic
+TEC-ECL:Contaminació
+TEC-ECL:Fabricació en sèrie
+TEC-ECL:Iteració
+TEC-ECL:Massificació
+TEC-ECL:Netedat
+TEC-ECL:Reciclatge
+TEC-ECL:Repetició
+TEC-ECL:Seriació
+TEC-ECL:Sostenibilitat
+TEC-ECL:Tècnica ecològica
+TEC-ECN:Béns
+TEC-ECN:Producció
+TEC-ECN:Serveis
+TEC-ECN:Tècnica econòmica
+TEC-ECU:Regles de consens
+TEC-ECU:Tècnica de consens
+TEC-ECU:Tècnica ecumènica
+TEC-EXC:Adequació tècnica
+TEC-EXC:Tècnica exacta
+TEC-EXP:Autor
+TEC-EXP:Experiment
+TEC-EXP:Obrer
+TEC-EXP:Tradició tècnica
+TEC-EXP:Tècnica experiencial
+TEC-EXP:Tècnica tradicional
+TEC-FEN:Procediment
+TEC-FEN:Processos
+TEC-FEN:Tècnica fenomènica
+TEC-FUN:Avarar
+TEC-FUN:Avaria
+TEC-FUN:Engegar
+TEC-FUN:Fisiologia
+TEC-FUN:Mecànica clàssica
+TEC-FUN:Rutllar
+TEC-FUN:Tècnica funcional
+TEC-GLO:Adoració romàntica
+TEC-GLO:Fama
+TEC-GLO:Referència
+TEC-GLO:Tècnica gloriosa
+TEC-GLO:Èxit
+TEC-IDT:Imprecisió tècnica
+TEC-IDT:Improvisació tècnica
+TEC-IDT:Llibertat tècnica
+TEC-IDT:Tècnica indeterminada
+TEC-MGM:Compressió tècnica
+TEC-MGM:Prohibició tècnica
+TEC-MGM:Repressament tècnic
+TEC-MGM:Repressió tècnica
+TEC-MGM:Reserva tècnica
+TEC-MGM:Retenció tècnica
+TEC-MGM:Tècnica magmàtica
+TEC-MTF:Aparell
+TEC-MTF:Eina
+TEC-MTF:Estri
+TEC-MTF:Màquina
+TEC-MTF:Naturalitat
+TEC-MTF:Tècnica metafísica
+TEC-OBJ:Afaiçonar
+TEC-OBJ:Construcció
+TEC-OBJ:Constructe
+TEC-OBJ:Reparació
+TEC-OBJ:Tallar
+TEC-OBJ:Tècnica objectiva
+TEC-OBL:Exigència tècnica
+TEC-OBL:Imposició tècnica
+TEC-OBL:Tècnica obligada
+TEC-OGN:Anatomia
+TEC-OGN:Biosociologia
+TEC-OGN:Biònica
+TEC-OGN:Tècnica orgànica
+TEC-ONA:Mecànica ondulatòria
+TEC-ONA:Ritme productiu
+TEC-ONA:Tècnica ondulatòria
+TEC-ONA:Vibracions
+TEC-ORG:Autenticitat tècnica
+TEC-ORG:Tècnica orgónica
+TEC-ORG:Espontaneïtat tècnica
+TEC-PAS:Assetjament
+TEC-PAS:Coacció
+TEC-PAS:Festeig
+TEC-PAS:Pressió moral
+TEC-PAS:Seducció
+TEC-PAS:Tortura
+TEC-PAS:Tècnica passional
+TEC-PAS:Violència
+TEC-PCS:Definició tècnica
+TEC-PCS:Encert tècnic
+TEC-PCS:Formulació tècnica
+TEC-PCS:Tècnica precisa
+TEC-POL:Acabat tècnic
+TEC-POL:Execució tècnica
+TEC-POL:Perfecció tècnica
+TEC-POL:Perícia
+TEC-POL:Qualitat
+TEC-POL:Tècnica polida
+TEC-PRA:Aprenent
+TEC-PRA:Feina
+TEC-PRA:Força de feina
+TEC-PRA:Habilitat
+TEC-PRA:Ofici
+TEC-PRA:Tècnica pràctica
+TEC-PRB:Expectativa tècnica
+TEC-PRB:Prova tècnica
+TEC-PRB:Simulació
+TEC-PRB:Tècnica probable
+TEC-PRD:Prodigi tècnic
+TEC-PRD:Transformació
+TEC-PRD:Tècnica prodigiosa
+TEC-RAR:Desconeixement tècnic
+TEC-RAR:Desconfiança tècnica
+TEC-RAR:Estrangeria tècnica
+TEC-RAR:Estranyesa tècnica
+TEC-RAR:Innovació tècnica
+TEC-RAR:Inspiració tècnica
+TEC-RAR:Invenció
+TEC-RAR:Novetat tècnica
+TEC-RAR:Tècnica rara
+TEC-RGN:Encert estructural
+TEC-RGN:Encert funcional
+TEC-RGN:Tècnica acceptada
+TEC-RGN:Tècnica regnant
+TEC-SGE:Fabricació
+TEC-SGE:Tècnica sígnica
+TEC-SGE:Viabilitat tècnica
+TEC-SGE1:Manipulació
+TEC-SGE1:Manufactura
+TEC-SGE1:Valor d’ús
+TEC-SGE2:Valor de canvi
+TEC-SGT:Demostració pràctica
+TEC-SGT:Ensenyament
+TEC-SGT:Exercici
+TEC-SGT:Lliçó
+TEC-SGT:Tècnica significativa
+TEC-STM:Declamació
+TEC-STM:Psiquedèlia
+TEC-STM:Retòrica
+TEC-STM:Tècnica interpretativa
+TEC-STM:Tècnica pictòrica
+TEC-STM:Tècnica sentimental
+TEC-TRB:Frec tècnic
+TEC-TRB:Resistència tècnica
+TEC-TRB:Tècnica turbulenta
+TEC-TRS:Exuberància tècnica
+TEC-TRS:Recursos sorprenents
+TEC-TRS:Tècnica dionisíaca
+TEC-TRS:Tècnica en trànsit
+TI:Consuetud
+TI:Costum
+TI:Habitud
+TI:Tradició
+XP:Acció meva
+XP:Context
+XP:EXPERIÈNCIA
+XP:Empíric
+XP:Entorn
+XP:Existència
+XP:Quotidianeïtat
+XP:Rodalies
+XP:Sensació
+XP:Tacte
+XP:Visió
+aco-depressi:Man?
+bar-se EXP:Tr
+ert-1 ANA-IDT:Descon
+ert-2 ACC-RAR:Descon
+ió-depressió:Exalta
+ió-exaltació:Depres
