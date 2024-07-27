@@ -133,7 +133,7 @@ function init(mobile)
     	    vertex2.x, vertex2.y, vertex2.z,
 	]); 
 	geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-	var material = new THREE.LineDashedMaterial({ color: 0xff5500, linewidth: 1, scale: 10, dashSize: 2, gapSize: 2, transparent: true, opacity:0.5 });
+	var material = new THREE.LineDashedMaterial({ color: 0xff5500, linewidth: 1, scale: 10, dashSize: 2, gapSize: 2, transparent: false, opacity:0.5 });
 	var line = new THREE.Line( geometry, material );
 	scene.add( line );
 
@@ -183,7 +183,7 @@ function init(mobile)
             vertex2.x, vertex2.y, vertex2.z,
         ]);
         geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-        var material = new THREE.LineDashedMaterial({ color: 0xffaaaa, dashSize: 2, gapSize: 2, transparent: true, opacity:0.7 })
+        var material = new THREE.LineDashedMaterial({ color: 0xffaaaa, dashSize: 2, gapSize: 2, transparent: false, opacity:0.7 })
         var line = new THREE.Line( geometry, material );
         scene.add( line );
 
@@ -196,7 +196,7 @@ function init(mobile)
         ]);
         geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
         //geometry.computeLineDistances();
-        var material = new THREE.LineDashedMaterial({ color: 0x55ffff, dashSize: 2, gapSize: 2, transparent: true, opacity:0.5  });
+        var material = new THREE.LineDashedMaterial({ color: 0x0099ff, dashSize: 2, gapSize: 2, transparent: false, opacity:0.5  });
         var line = new THREE.Line( geometry, material );
         scene.add( line );
 
@@ -351,8 +351,8 @@ function addLights() {
         scene.add(light);
 
         // subject
-        var light = new THREE.PointLight(0xff0055,2,1000,1);
-        var x=-0;var y=-200;var z=200;
+        var light = new THREE.PointLight(0xff0066,2,1000,1);
+        var x=0;var y=-200;var z=200;
         light.position.set(x,y,z);
         scene.add(light);
 
@@ -363,7 +363,7 @@ function addLights() {
         scene.add(light);
 
         // pra
-         var light = new THREE.PointLight(0xff0000,20,1000,2);
+         var light = new THREE.PointLight(0xff0000,2,1000,1);
         var x=-200;var y=0;var z=0;
         light.position.set(x,y,z);
        scene.add(light);
