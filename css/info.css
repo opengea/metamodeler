@@ -4,7 +4,7 @@ body { background-color:#000; overflow:hidden; }
 
 div#infoBox { 
 	position: absolute; left:0px; top:0px;z-index:99999;color:#2e8560;Text-transform:uppercase;
-	border:1px solid #1a6d4a;background-color: rgba(5,5,5,.7);font-family:arial;font-size:10px;margin:5px 0px 0px 2px;padding:5px;width:95%;height:90% 
+	border:0px solid #1a6d4a;background-color: rgba(5,5,5,.7);font-family:arial;font-size:10px;margin:0px;padding:5px 5px 5px 10px;width:95%;height:99% 
 }
 div.tab { margin-top:10px;border-top:1px solid #222 }
 div.menutab { float:left; padding:5px 5px;cursor:pointer;cursor:hand}

@@ -1,8 +1,8 @@
 <?
 include "../conf/config.php";
 $debug=0;
-$version="1.0b";
-$info = "<b style='text-transform:initial !important'>Gmodeler is software developed by Jordi Berenguer to create global models of reality.</b><br><br>
+$version="1.0";
+$info = "<b style='text-transform:initial !important'>Metamodeler is a software developed by Jordi Berenguer to create global models of reality.</b><br><br>
 <br>
 Ontological hyperspace dimensions:<br>
 <br>

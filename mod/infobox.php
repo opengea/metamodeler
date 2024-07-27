@@ -4,8 +4,8 @@ $datadir    = 'data';
 if ($userPreferredLanguage=="en") { $name_field="name_en"; $descr_field="desc_en"; }  else { $name_field="nom"; $descr_field="description"; }
 
 ?>
-<h1> GMODELER v.<?=$version?></h1>
-<div style="position:absolute;bottom:5px"><span class="colortheme_dark" style="text-transform:capitalize">f key:fullscreen mode</span><br><br><span class='colortheme' style="text-transform:initial">(cc) BY-SA GMODELER <a href='mailto:jordi@opengea.org' style='color:#67d5a6;float:right;padding-left:5px'>Jordi Berenguer</a> <a href="http://www.opengea.org" target="_blank" style="padding-top:5px;color:#eeeeee">www.opengea.org</a><br></span><br></div>
+<h1> METAMODELER v.<?=$version?></h1>
+<div style="position:absolute;bottom:50px"><span class="colortheme_dark" style="text-transform:capitalize">f key:fullscreen mode</span><br><br><span class='colortheme' style="text-transform:initial">Apache 2.0 license.  &copy; <?=date('Y')?> METAMODELER <a href='mailto:jordi@opengea.org' style='color:#67d5a6'>By Jordi Berenguer</a> <a href="https://www.opengea.org" target="_blank" style="padding-top:5px;color:#eeeeee">opengea.org</a><br></span><br></div>
 <div class='menutab' onclick="setTab('settings');">Settings</div><div class='menutab' onclick="setTab('info')">info</div>
 <br>
 <div class="tab" id='settings'>
