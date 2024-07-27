@@ -9,7 +9,6 @@
 // standard global variables
 var container, scene, camera, mouse, renderer, controls, stats, objects;
 var keyboard = new THREEx.KeyboardState();
-
 // var clock = new THREE.Clock();
 
 // custom global variables
@@ -19,7 +18,6 @@ var sprite1;
 var canvas1, context1, texture1;
 
 //global
-
 var torusgeometry;
 var torusmaterial;
 var torus;
@@ -39,6 +37,30 @@ var cat2=[];
 //Raycaster (for clicking objects)
 raycaster = new THREE.Raycaster();
 
+ // Custom TrackballControls class
+    class CustomTrackballControls extends THREE.TrackballControls {
+        constructor(object, domElement) {
+            super(object, domElement);
+            this.minPolarAngle = Math.PI / 2; // Prevent moving up
+            this.maxPolarAngle = Math.PI / 2; // Prevent moving down
+        }
+
+        update() {
+            super.update();
+            // Restrict the vertical rotation
+            const offset = new THREE.Vector3();
+            offset.copy(this.object.position).sub(this.target);
+            const spherical = new THREE.Spherical();
+            spherical.setFromVector3(offset);
+
+            // Clamp polar angle
+            spherical.phi = Math.max(this.minPolarAngle, Math.min(this.maxPolarAngle, spherical.phi));
+
+            offset.setFromSpherical(spherical);
+            this.object.position.copy(this.target).add(offset);
+            this.object.lookAt(this.target);
+        }
+    }
 
 
 function init(mobile) 
@@ -96,8 +118,10 @@ function init(mobile)
 	// ROTATE CAM
 	window.addEventListener( 'keydown', onDocumentKeyDown, false );
 
+
         // CONTROLS
-        controls = new THREE.TrackballControls( camera,container );
+    //    controls = new THREE.TrackballControls( camera,container );
+	controls = new CustomTrackballControls( camera,container );
 
 
         if (mobile) { controls.rotateSpeed = 2.0; } else {  controls.rotateSpeed = 10.0; }
@@ -110,14 +134,7 @@ function init(mobile)
         controls.keys = [ 65, 83, 68 ]; //A, S, D (http://cherrytree.at/misc/vk.htm)
         controls.addEventListener( 'change', render );
 
-        // STATS
-/*      stats = new Stats();
-        stats.domElement.style.position = 'absolute';
-        stats.domElement.style.bottom = '0px';
-        stats.domElement.style.zIndex = 100;
-        container.appendChild( stats.domElement );
-*/
-
+	//addStats();
 	addLights();
 	//addBezier();
 	addSeny();
@@ -200,27 +217,9 @@ function init(mobile)
         var line = new THREE.Line( geometry, material );
         scene.add( line );
 
+	//addSkybox();
 
-
-        // SKYBOX/FOG
-/*      var skyBoxGeometry = new THREE.CubeGeometry( 10000, 10000, 10000 );
-        var skyBoxMaterial = new THREE.MeshBasicMaterial( { color: 0x9999ff, side: THREE.BackSide } );
-        var skyBox = new THREE.Mesh( skyBoxGeometry, skyBoxMaterial );
-        scene.add(skyBox);
-*/      
-        ////////////
-        // CUSTOM //
-        ////////////
-        
-/*      var cubeGeometry = new THREE.CubeGeometry( 100, 100, 100 );
-        var cubeMaterial = new THREE.MeshNormalMaterial();
-        cube = new THREE.Mesh( cubeGeometry, cubeMaterial );
-        cube.position.set(0,50.1,0);
-        cube.name = "Cube";
-        scene.add(cube);
-*/     
-
-	//SPHERE PLASMA
+	//PLASMA SPHERE
 	geometrySphere = new THREE.SphereGeometry( 50 , 100, 100 );
 	materialSphere = new THREE.MeshLambertMaterial({wireframe: true, color: 0xffffff,transparent:true,opacity:0.09});
 
@@ -237,9 +236,8 @@ function init(mobile)
 	sphere = new THREE.Mesh( geometrySphere, materialSphere );
 	scene.add( sphere );
 
-        //SPHERE NEUTRAL
+        //NEUTRAL SPHERE
         geometrySphere = new THREE.SphereGeometry( $('#sphere_rad').val(), 126, 126 );
-//      materialSphere = new THREE.MeshBasicMaterial( { color: 0xffffff,wireframe:true,transparent:true,opacity:0.02 } );
         materialSphere = new THREE.MeshLambertMaterial({wireframe: true, color: 0xffffff,transparent:true,opacity:0.05});
 
 	var materialSphere = new THREE.MeshLambertMaterial({
@@ -269,7 +267,6 @@ function init(mobile)
             flatShading: false
         });
 
-
         sphere = new THREE.Mesh( geometrySphere, materialSphere );
         scene.add( sphere );
 	
@@ -278,18 +275,8 @@ function init(mobile)
         torusmaterial=new THREE.MeshLambertMaterial({wireframe: $('#render_wireframe').is(':checked'), color: 0xffffff,transparent:true,opacity:0.1});
         torus= new THREE.Mesh(torusgeometry,torusmaterial);
 
+	//OBExporter();
 
-/*
-console.log('----------------- OBJExporter-----------------');
-var exporter = new THREE.OBJExporter();
-var obj_data=exporter.parse( torus );
-var data = new FormData();
-data.append("data" , obj_data);
-var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new activeXObject("Microsoft.XMLHTTP");
-xhr.open( 'post', '/sources/metamodel/tools/save.php', true );
-xhr.send(data);
-console.log('-----------------------------------------------');
-*/
         torus.position.set(0,0,0);
 	torus.rotation.set(1.5,1.5,0);
         torus.name = "Torus";
@@ -335,6 +322,39 @@ function situa(PT,FN,OS) {  //PT=Pra-Teo  FN=Fen-Nou OS=Obj-Sub
 
 }
 
+function OBJExporter() {
+
+console.log('----------------- OBJExporter-----------------');
+var exporter = new THREE.OBJExporter();
+var obj_data=exporter.parse( torus );
+var data = new FormData();
+data.append("data" , obj_data);
+var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new activeXObject("Microsoft.XMLHTTP");
+xhr.open( 'post', '/sources/metamodel/tools/save.php', true );
+xhr.send(data);
+console.log('-----------------------------------------------');
+
+}
+
+function addSkybox() {
+
+      var skyBoxGeometry = new THREE.CubeGeometry( 10000, 10000, 10000 );
+        var skyBoxMaterial = new THREE.MeshBasicMaterial( { color: 0x9999ff, side: THREE.BackSide } );
+        var skyBox = new THREE.Mesh( skyBoxGeometry, skyBoxMaterial );
+        scene.add(skyBox);
+
+}
+
+function addStats() {
+
+        // STATS
+        stats = new Stats();
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.bottom = '0px';
+        stats.domElement.style.zIndex = 100;
+        container.appendChild( stats.domElement );
+
+}
 
 function addLights() {
 
@@ -636,39 +656,28 @@ function entre(cat1,cat2) { //situa entre dues categories
 
 function posx(percent,relative) {
 	var factor=100/percent;
-//alert(relative->cat['dim']);
-//cat[label][key].data[prop]=data[key].prop
-//cat[label][key].data['pos']
-//	return (relative.data['pos'][0]/factor);
-//console.log(relative.data);
 	return (relative.data.pos[0]/factor);
-
 }
 
 function posy(percent,relative) {
         var factor=100/percent;
-//      return (relative.data['pos'][1]/factor);
 	return (relative.data.pos[1]/factor);
 }
 function posz(percent,relative) {
         var factor=100/percent;
-//     return (relative.data['pos'][2]/factor);
 	return (relative.data.pos[2]/factor);
-
 }
 
 function toCir (x,y,z) {
         //transform cartesian to circular
-//toCir(posx(25,cat['dim']['PRA']),posy(25,cat['dim']['FEN']),0)
         a=Math.atan(y/x);
         xc = Math.sin(a)*x;
-console.log(a);
-console.log(x+","+y+","+z);
-
+	//console.log(a);
+	//console.log(x+","+y+","+z);
 	var xc = Math.sin(45)*x;
 	var yc = Math.sin(45)*y;
 	var zc = Math.sin(45)*z;
-console.log(xc+","+yc+","+zc);
+	//console.log(xc+","+yc+","+zc);
 	return [xc,yc,zc];
 }
 
@@ -696,7 +705,6 @@ function onDocumentKeyDown ( event ) {
 	camera.position.z = camera.position.z - delta;
 	break;
 	case 39 : // right arrow
-//	camera.position.x = camera.position.x + delta;
 	camera.position.x = x * Math.cos(rot) - z * Math.sin(rot);
         camera.position.z = z * Math.cos(rot) + x * Math.sin(rot);
 	break;
@@ -730,7 +738,7 @@ function onDocumentMouseDown( event ) {
 	//points camera to object position
 	//controls.target.set( intersects[0].object.position.x,intersects[0].object.position.y,intersects[0].object.position.z );
     } else {
-document.body.style.cursor = 'default';
+	document.body.style.cursor = 'default';
 
 	//click outside
 	$('#info').html(info);
@@ -767,8 +775,7 @@ var radiusRange = 140;
 	
 function loadCategories(label,data,properties) {
 
-console.log('loading categories '+label+' properties:'+properties.fontsize);
-//console.log(properties);
+	console.log('loading categories '+label+' properties:'+properties.fontsize);
 	label=label.substr(0,3);
         cat[label]=cat[label] || [];
         for (var key in data) {
@@ -866,7 +873,6 @@ function loadCategories2(label,data,properties) {
 
 }
 
-
 function makeTextSprite( type, message, parameters )
 {
         if ( parameters === undefined ) parameters = {};
@@ -921,15 +927,13 @@ console.log(type);
         var texture = new THREE.Texture(canvas)
         texture.needsUpdate = true;
 
-
-
 //        var spriteMaterial = new THREE.SpriteMaterial( { map: texture} );
 
-var spriteMaterial = new THREE.SpriteMaterial({
-    map: texture,
-    depthTest: false, // Disable depth test
-    depthWrite: false // Disable depth write
-});
+	var spriteMaterial = new THREE.SpriteMaterial({
+	    map: texture,
+	    depthTest: false, // Disable depth test
+	    depthWrite: false // Disable depth write
+	});
 
 
         var sprite = new THREE.Sprite( spriteMaterial );
@@ -991,10 +995,6 @@ function animate()
            }
 */
     }, 1000 / 30 );
-//    renderer.render();
-
-
-
         render();               
         update();
 }

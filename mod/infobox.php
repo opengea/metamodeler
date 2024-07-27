@@ -145,8 +145,8 @@ $(document).ready( function() {
 
 
 init(<?=$mobile?>);
-onaSeny[0].visible=onaSeny[1].visible=false;
-onaCrepus[0].visible=onaCrepus[1].visible=false;
+//onaSeny[0].visible=onaSeny[1].visible=false;
+//onaCrepus[0].visible=onaCrepus[1].visible=false;
 
 animate();
 
