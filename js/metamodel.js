@@ -137,7 +137,7 @@ function init(mobile)
 	//addStats();
 	addLights();
 	//addBezier();
-	addSeny();
+	//addSeny();
 	//addFloor();
 
 	/* dimensional axis - eixos */
