@@ -2,23 +2,6 @@
 include "../conf/config.php";
 $debug=0;
 $version="1.0";
-$info = "<b style='text-transform:initial !important'>Metamodeler is a software developed by Jordi Berenguer to create global models of reality.</b><br><br>
-<br>
-Ontological hyperspace dimensions:<br>
-<br>
-3 Cartesian:<br>
-<ul>
-<li>1:TEO-PRA</li>
-<li>2:SUB-OBJ</li>
-<li>3:NOU-FEN</li>
-</ul>
-+1 Spherical Polar:<br>
-<ul>
-<li>4:PLA-MON</li>
-</ul>
-<br>
-<br>
-Model based on the Globalium, a global model of reality created by Lluís Maria Xirinacs.<br><br>";
 
 function getPreferredLanguage($availableLanguages, $default = 'en') {
     if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
