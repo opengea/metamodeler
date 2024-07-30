@@ -1,5 +1,6 @@
 # Metamodeler
-Specialized tool used to create, manage, and manipulate metamodels, as holistic organitzational models. A metamodel is an abstract framework or domain-specific language for describing the structure, semantics, and constraints of a specific set of models within a particular domain. Metamodeler is also available in a VR version.
+
+Specialized tool used to create, explore and manage holistic organitzational metamodels. A metamodel is an abstract framework or domain-specific language for describing the structure, semantics, and constraints of a specific set of models within a particular domain. Metamodeler is also available in a VR version.
 
 #Author
 Jordi Berenguer
