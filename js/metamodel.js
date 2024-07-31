@@ -41,8 +41,8 @@ raycaster = new THREE.Raycaster();
     class CustomTrackballControls extends THREE.TrackballControls {
         constructor(object, domElement) {
             super(object, domElement);
-            this.minPolarAngle = Math.PI / 2; // Prevent moving up
-            this.maxPolarAngle = Math.PI / 2; // Prevent moving down
+            this.minPolarAngle = Math.PI / 2; // Prevent moving up 90º in radians
+            this.maxPolarAngle = Math.PI / 2; // Prevent moving down 90º in radians
         }
 
         update() {
@@ -62,6 +62,14 @@ raycaster = new THREE.Raycaster();
         }
     }
 
+
+// Funció per limitar la rotació de l'eix de la càmera
+function limitCameraRotation() {
+    // Evita que la càmera giri sobre el seu eix
+   // camera.rotation.order = 'ZYX'; // Assegura que la rotació es faci en l'ordre correcte
+   // camera.rotation.z = 0; // Restableix la rotació al voltant de l'eix Z
+    // Evita que la càmera giri sobre el seu eix X
+}
 
 function init(mobile) 
 {
@@ -118,21 +126,31 @@ function init(mobile)
 	// ROTATE CAM
 	window.addEventListener( 'keydown', onDocumentKeyDown, false );
 
-
         // CONTROLS
-    //    controls = new THREE.TrackballControls( camera,container );
-	controls = new CustomTrackballControls( camera,container );
+       controls = new THREE.TrackballControls( camera,container );
+
+	// Configura els límits de rotació vertical
+//controls.minPolarAngle = Math.PI / 2; // Límits en radians (90 graus)
+//controls.maxPolarAngle = Math.PI / 2; // Límits en radians (90 graus)
+
+//	controls = new CustomTrackballControls( camera,container );
 
 
         if (mobile) { controls.rotateSpeed = 2.0; } else {  controls.rotateSpeed = 10.0; }
         controls.zoomSpeed = 0.05;
         controls.panSpeed = 0.8;
-        controls.noZoom = false;
+        controls.noRotate = false;
+	controls.noZoom = false;
         controls.noPan = true; //false;
-        controls.staticMoving = true;
+
+        controls.staticMoving = false;// Permet inèrcia
         controls.dynamicDampingFactor = 0.3;
+
         controls.keys = [ 65, 83, 68 ]; //A, S, D (http://cherrytree.at/misc/vk.htm)
         controls.addEventListener( 'change', render );
+
+	// Defineix l'objectiu dels controls
+controls.target.set(0, 0, 0); // Objectiu dels controls
 
 	//addStats();
 	addLights();
@@ -775,7 +793,7 @@ var radiusRange = 140;
 	
 function loadCategories(label,data,properties) {
 
-	console.log('loading categories '+label+' properties:'+properties.fontsize);
+	console.log('loading categories '+label);
 	label=label.substr(0,3);
         cat[label]=cat[label] || [];
         for (var key in data) {
@@ -904,11 +922,13 @@ fontsize=50;
 
         // background color
         context.fillStyle   = "rgba(" + backgroundColor.r + "," + backgroundColor.g + "," + backgroundColor.b + "," + backgroundColor.a + ")";
-console.log(type);
-	if (type=='neu') context.fillStyle   = "rgba(255,255,255,1)";
+
+
+/*	if (type=='neu') context.fillStyle   = "rgba(255,255,255,1)";
 	else if (type=='pla') context.fillStyle   = "rgba(255,100,100,1)";
 	else if (type=='mun') context.fillStyle   = "rgba(100,100,255,1)";
-        // border color
+*/ 
+       // border color
        // context.strokeStyle = "rgba(" + borderColor.r + "," + borderColor.g + "," + borderColor.b + "," + borderColor.a + ")";
        // context.lineWidth = borderThickness;
 	
@@ -976,27 +996,26 @@ function roundRect(ctx, x, y, w, h, r)
 
 function animate() 
 {
-   // requestAnimationFrame( animate );
 
    //covert 60 fps to 30 fps
-    setTimeout( function() {
+  //  setTimeout( function() {
+
         requestAnimationFrame( animate );
 
-/*
- // Update the raycaster
-            raycaster.setFromCamera(mouse, camera);
- // Calculate objects intersecting the raycaster (sprites = labels)
-           var intersects = raycaster.intersectObject(objects);
- // Change cursor style based on intersection
-            if (intersects.length > 0) {
-                document.body.style.cursor = 'pointer';
-            } else {
-               document.body.style.cursor = 'default';
-           }
-*/
-    }, 1000 / 30 );
-        render();               
+        // Evita el "roll" (gir d'eix Y sobre Z) reajustant la càmera
+        const up = new THREE.Vector3(1, 0, 0);
+        const targetDirection = new THREE.Vector3().subVectors(controls.target, camera.position).normalize();
+        const right = new THREE.Vector3().crossVectors(up, targetDirection).normalize();
+        const cameraUp = new THREE.Vector3().crossVectors(targetDirection, right);
+        camera.up.copy(cameraUp);
+
+        camera.lookAt(controls.target);
+
         update();
+        limitCameraRotation(); // limita rotació de l'eix de la càmera
+        render();         
+	
+//    }, 1000 / 30 );
 }
 
 function update()
@@ -1007,7 +1026,7 @@ function update()
 
 function render() 
 {
-        renderer.render( scene, camera );
+        renderer.render(scene, camera);
 }
 
 
