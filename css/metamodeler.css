@@ -2,6 +2,8 @@ body.about .footer {
   margin-top: 30px;
 }
 
+.textarea_edit  { outline:none;width:222px;max-width:222px !important;min-width:222px !important;height:500px;border:1px solid #47b586; padding:5px; font-size:10px;color:#47b586;background:none }
+
 div#menutop {
   background-color: #FBE61B;
   padding: 10px;
@@ -63,11 +65,8 @@ div#login {
 }
 
 .explore {
-  width: calc(100% - 150px);
-}
-
-.explore {
-  width: calc(100% - 170px);
+/*  width: calc(100% - 170px);
+*/
 }
 
 .footer {

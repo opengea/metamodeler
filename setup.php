@@ -35,7 +35,7 @@ $availableLanguages = ['en', 'ca'];
 // Detect the user's preferred language
 $userPreferredLanguage = getPreferredLanguage($availableLanguages);
 
-$userPreferredLanguage="en";
+//$userPreferredLanguage="en";
 
 
 ?>
