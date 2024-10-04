@@ -1109,7 +1109,7 @@ function loadCategories(label,data,properties) {
  
      //   sprite_label2.scale.set(scaleFactor*1.9, scaleFactor, scaleFactor);
   
-	sprite_label2.scale.set(20,10.5,1); // vegades que s'escala en x, y i z (z és 1 perquè els sprites son plans)
+	sprite_label2.scale.set(20,4.4,1); // vegades que s'escala en x, y i z (z és 1 perquè els sprites son plans)
  
 	//labels[key].position.set(labels[key].position.x-desplX,labels[key].position.y-desplY,labels[key].position.z);
 	sprite_label2.position.set(xlabel-desplX,ylabel-desplY,zlabel);
@@ -1338,11 +1338,12 @@ function makeTextSprite2( type, label, message, parameters, object )
         var backgroundColor = parameters.hasOwnProperty("backgroundColor") ? parameters["backgroundColor"] : { r:255, g:255, b:255, a:1.0 };
         var canvas = document.createElement('canvas');
 	canvas.width = 512;//1724;//;  // Example: 512 pixels wide
-	canvas.height =256;//65;//256;//786;//512;//256;  // Example: 256 pixels tal
+	canvas.height =100;//65;//256;//786;//512;//256;  // Example: 256 pixels tal
+
         var context = canvas.getContext('2d');
 
         context.font = "Bold " + fontsize + "px " + fontface;
-
+	
        // get size data (height depends only on font size)
         var metrics = context.measureText( message );
         var textWidth = metrics.width;
@@ -1353,7 +1354,14 @@ function makeTextSprite2( type, label, message, parameters, object )
         if (object.generacio==1) context.fillStyle   = "rgba(255,255,255,1)";
         else if (object.generacio==1.5) context.fillStyle   = "rgba(190,255,255,1)";
         else if (object.generacio==1.75) context.fillStyle   = "rgba(255,255,190,1)";
-
+/*
+// border 
+var borderWidth = 5;
+var borderColor = 'green';
+context.lineWidth = borderWidth;  // Set the width of the border
+context.strokeStyle = borderColor; // Set the color of the border
+context.strokeRect(0, 0, canvas.width, canvas.height);
+*/
         //context.fillStyle   = "rgba(" + backgroundColor.r + "," + backgroundColor.g + "," + backgroundColor.b + "," + backgroundColor.a + ")";
 
         // text color
@@ -1380,8 +1388,7 @@ function makeTextSprite2( type, label, message, parameters, object )
 	sprite.object_id=object.id; //per si cal
         sprite.name=message;
 	sprite.label=label;
-//	sprite.scale.set(canvas.width / 50, canvas.height / 50, 1.0);  
-	 sprite.scale.set(5000,5,1);
+	sprite.scale.set(5000,5,1);
         sprite.position.set(0,0,0);
         return sprite;
 }
