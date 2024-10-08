@@ -923,7 +923,11 @@ function onDocumentMouseDown( event ) {
         document.body.style.cursor = 'pointer';
 	//load data into info panel
 	var obj=intersects[0].object;
-	var preinfo="<br>"+obj.data.title+" ("+obj.name+")";//("+obj.position.x+","+obj.position.y+","+obj.position.z+")";
+	var preinfo="";
+                    if (typeof metastructure === 'object' && metastructure !== null) {
+                    preinfo = "<br>"+metastructure.nom.toUpperCase()+"<br>";//<br><span style='font-weight:normal !important'>"+metastructure.description+"</span><br>";//"Disciplines<br><br>Teoria del coneixement, epistemologia. Materies d'estudi.";
+                    }
+	preinfo+="<br>"+obj.data.title+" ("+obj.name+")";//("+obj.position.x+","+obj.position.y+","+obj.position.z+")";
 	//console.log('click on '+obj.name);
 	if (obj.data.type!="Plasmàtica"&&obj.data.type!="Mundana") {add2=")";add="NEUTRAL (";} else{ add=add2="";}
 	preinfo+="<br><br>Type: "+add+obj.data.type+add2+"<br><br>";
@@ -1103,16 +1107,19 @@ function loadCategories(label,data,properties) {
 
         const targetDirection = new THREE.Vector3().subVectors(controls.target, camera.position).normalize();
         var canvi = ajustaDespl(targetDirection);
-//console.log('ajusta -> '+desplX+","+desplY);
-//	 if (label!='neu') { desplY-=2; } // desplX=0; } else { desplY=7; desplX=0; } 
-	if (label!="neu") increment=7; else increment=9;
- 
-     //   sprite_label2.scale.set(scaleFactor*1.9, scaleFactor, scaleFactor);
+	if (label!="neu") increment=4; else increment=6;
+	//primera vegada carreguem vista central
+	desplX=increment;
+	desplY=0;
   
-	sprite_label2.scale.set(20,4.4,1); // vegades que s'escala en x, y i z (z és 1 perquè els sprites son plans)
+	sprite_label2.scale.set(23,4.4,1); // vegades que s'escala en x, y i z (z és 1 perquè els sprites son plans)
  
-	//labels[key].position.set(labels[key].position.x-desplX,labels[key].position.y-desplY,labels[key].position.z);
 	sprite_label2.position.set(xlabel-desplX,ylabel-desplY,zlabel);
+	sprite_label2.x_orig=xlabel-desplX;
+	sprite_label2.y_orig=ylabel-desplY;
+
+	console.log('ylabel:'+ylabel+' desplY:'+desplY+' y_orig='+sprite_label2.y_orig); 
+
 	//line
 	//pulsacio pla-mon
 	if (data[key].type=='Mundana' && key!='COS' && key!='COV' && key!='INT' && key!='AFI' && key!='EXC' && key!='CMN') {
@@ -1337,8 +1344,9 @@ function makeTextSprite2( type, label, message, parameters, object )
 	borderThickness=0;
         var backgroundColor = parameters.hasOwnProperty("backgroundColor") ? parameters["backgroundColor"] : { r:255, g:255, b:255, a:1.0 };
         var canvas = document.createElement('canvas');
-	canvas.width = 512;//1724;//;  // Example: 512 pixels wide
-	canvas.height =100;//65;//256;//786;//512;//256;  // Example: 256 pixels tal
+	// si es canvia la midal del label2 s'ha d'ajustar sprite_label2.scale.set(23,4.4,1);
+	canvas.width = 632;
+	canvas.height =100;
 
         var context = canvas.getContext('2d');
 
@@ -1414,7 +1422,6 @@ function roundRect(ctx, x, y, w, h, r)
 }
 
 function ajustaDespl(targetDirection) {
-        //console.log(targetDirection);
         var canvi=false;
         if (targetDirection.x<-0.5 && lookat!='up') { // vista pol nord
                 lookat='up'; canvi=true;
@@ -1423,12 +1430,8 @@ function ajustaDespl(targetDirection) {
                 lookat='down'; canvi=true;
                 desplY=-increment; desplX=0;
         }  else if (targetDirection.x>=-0.5 && targetDirection.x<=0.5 && lookat!='normal') {
-                if (lookat=='down') desplY=increment;
-                else if (lookat=='up') desplY=-increment;
-                lookat='normal'; canvi=true;
-		if (desplX==0 && desplY==0) { desplX=increment; desplY=0; }
+                lookat='normal'; canvi=true; desplX=0; desplY=0; //increment;
         }
-	console.log(desplX+","+desplY);
         return canvi;
 }
 
@@ -1453,7 +1456,7 @@ function animate()
 		//actualitzem posicions de labels
 		Object.keys(labels).forEach(key => {
 		    if (labels[key] instanceof THREE.Sprite) {
-		        labels[key].position.set(labels[key].position.x-desplX,labels[key].position.y-desplY,labels[key].position.z);
+		        labels[key].position.set(labels[key].x_orig-desplX,labels[key].y_orig-desplY,labels[key].position.z);
 		    }
 		});
 	}

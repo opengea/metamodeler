@@ -55,11 +55,11 @@ Z <input type=text id="z" name="z" value="<?=$_POST['z']?>">
     <option value="0">** Metamodel global **</option>
     <option value="pla">Creativitat</option>
     <option value="mon">Societat</option>
-    <option value="fen">Comunicació</option>
+    <option value="fen">Coneixement-Epistemologia-Comunicació</option>
     <option value="nou">Espiritualitat</option>
     <option value="sub">Subjectivitat i realització personal</option>
     <option value="obj">Teoria unificada de la física</option>
-    <option value="teo">Teoria epistemològica de la ment</option>
+    <option value="teo">Teoria de la ment</option>
     <option value="pra">Cosmologia</option>
 
     <option value="exp">Història</option>
@@ -73,16 +73,21 @@ Z <input type=text id="z" name="z" value="<?=$_POST['z']?>">
 
     <option value="mtf">Metafísica i filosofia</option>
     <option value="mtp">Metapsíquica i arquetips de la personalitat</option>
-    <option value="1">Disciplines</option>
+    <option value="cie">Disciplines</option>
     <option value="art">Art i creativitat</option>
     <option value="log">Llenguatge</option>
     <option value="ide">Matemàtiques</option>
-    <option value="eti">Cibernètica</option>
+    <option value="eti"></option>
     <option value="tec">Intel·ligència Artificial</option>
     <option value="mit">Cultura i tradició</option>
     <option value="est">Comunicació i retòrica</option>
     <option value="psi">Sociologia</option>
     <option value="mis">Espiritualitat i mística</option>
+
+    <option value="arq">Globalium-X</option>
+    <option value="cnv">Diàleg i consens</option>    
+    <option value="det">Cibernètica</option>
+
 
     <option value="rgn">Verapau</option>
 </select>
